@@ -1,0 +1,70 @@
+[
+  {
+    "category": "UI/UX Design",
+    "subCategories": [
+      "User Interface Design",
+      "User Experience Research",
+      "Wireframing & Prototyping",
+      "Interaction Design",
+      "Usability Testing"
+    ]
+  },
+  {
+    "category": "Graphic Design",
+    "subCategories": [
+      "Branding & Logo Design",
+      "Print Design",
+      "Motion Graphics",
+      "Digital Illustration",
+      "Typography"
+    ]
+  },
+  {
+    "category": "Website Development",
+    "subCategories": [
+      "Front-End Development",
+      "Back-End Development",
+      "Full Stack Development",
+      "Web Performance Optimization",
+      "Web Security"
+    ]
+  },
+  {
+    "category": "Mobile Development",
+    "subCategories": [
+      "iOS Development",
+      "Android Development",
+      "Cross-Platform Development",
+      "Mobile App UI/UX",
+      "Mobile Testing & Debugging"
+    ]
+  },
+  {
+    "category": "Data Analyst",
+    "subCategories": [
+      "Data Visualization",
+      "Excel & Spreadsheet Analysis",
+      "Statistical Analysis",
+      "SQL for Data Analysis",
+      "Power BI / Tableau"
+    ]
+  },
+  {
+    "category": "Data Scientist",
+    "subCategories": [
+      "Machine Learning",
+      "Deep Learning",
+      "Natural Language Processing",
+      "Data Mining & Wrangling",
+      "Python for Data Science"
+    ]
+  },
+  {
+    "category": "Digital Marketer",
+    "subCategories": [
+      "Search Engine Optimization",
+      "Social Media Marketing",
+      "Content Marketing"
+    ]
+  }
+]

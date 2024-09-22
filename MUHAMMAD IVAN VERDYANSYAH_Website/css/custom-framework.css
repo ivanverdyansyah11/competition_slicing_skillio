@@ -1,0 +1,41 @@
+/* CUSTOM FRAMEWORK */
+.d-flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-start {
+    justify-content: start;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-start {
+    align-items: start;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-end {
+    align-items: end;
+}
+/* END CUSTOM FRAMEWORK */

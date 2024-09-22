@@ -1,0 +1,523 @@
+/* RESPONSIVE XL */
+@media (max-width: 1399.98px) {
+    section.hero .hero-content {
+        width: 50%;
+    }
+
+    section.hero .component-buble {
+        bottom: -200px;
+        right: -200px;
+    }
+
+    .section-banner {
+        width: 48%;
+    }
+
+    section.detail {
+        gap: 62px;
+    }
+}
+/* END RESPONSIVE XL */
+
+/* RESPONSIVE LG */
+@media (max-width: 1199.98px) {
+    .container {
+        padding: 0 80px;
+    }
+
+    .card-detail-course {
+        right: 80px;
+        width: 300px;
+    }
+
+    .authentication-page .authentication-form .content {
+        padding: 0 80px;
+        padding-top: 0;
+    }
+
+    .authentication-page .authentication-form .content .other,
+    .authentication-page .authentication-form .content .button-group {
+        margin-top: 24px;
+    }
+
+    .headline {
+        font-size: 3.913rem;
+        font-family: var(--urbanist-bold);
+    }
+
+    .headline img {
+        width: 62px;
+    }
+
+    section.hero .hero-content .wrapper {
+        margin-top: 114px;
+    }
+
+    section.hero .component-buble {
+        bottom: -280px;
+        right: -280px;
+    }
+
+    section.hero .hero-banner img {
+        height: 500px;
+    }
+
+    .section-gap {
+        padding-top: 100px;
+    }
+
+    section.why-choose-us .section-content,
+    .main section.about .section-content {
+        width: 46%;
+    }
+
+    section.cta .content {
+        width: 100%;
+    }
+
+    .detail-course section.hero .hero-content,
+    .detail-course section.detail {
+        width: 100%;
+    }
+
+    section.detail > .card-detail-course {
+        width: 320px;
+        margin-top: -340px;
+    }
+
+    .detail-course section.hero .hero-content,
+    section.detail {
+        grid-template-columns: auto 320px;
+    }
+
+    .profile section.profile .section-content .content-image img {
+        width: 180px;
+    }
+}
+/* END RESPONSIVE LG */
+
+/* RESPONSIVE MD */
+@media (max-width: 991.98px) {
+    .container {
+        padding: 0 64px;
+    }
+
+    .title {
+        font-size: 2.75rem;
+    }
+
+    .none-tablet {
+        display: none;
+    }
+
+    .authentication-page .authentication-form {
+        width: 80%;
+        align-items: start;
+        padding-top: 60px;
+    }
+
+    .navbar .navbar-link .link-item {
+        gap: 24px;
+        margin-left: 24px;
+    }
+
+    .navbar .navbar-link .link-profile .profile-wrapper:nth-child(1),
+    .navbar .navbar-link .link-profile .profile-wrapper:nth-child(2) {
+        display: none;
+    }
+
+    .navbar .navbar-category {
+        width: 100%;
+        justify-content: start;
+        overflow-x: auto;
+    }
+
+    .navbar .navbar-category .container {
+        justify-content: start;
+    }
+
+    section.hero {
+        height: fit-content;
+    }
+
+    section.hero .hero-content .wrapper {
+        margin-top: 172px;
+        margin-bottom: 62px;
+    }
+
+    section.hero .hero-banner,
+    section.hero .component-doughnut,
+    section.hero .component-buble {
+        display: none;
+    }
+
+    .main section.hero .hero-content,
+    .about section.hero .hero-content,
+    .course section.hero .hero-content {
+        width: 100%;
+    }
+
+    .category section.hero .hero-content {
+        width: 70%;
+    }
+
+    .category section.hero .hero-content .wrapper {
+        align-items: start;
+    }
+
+    .category section.hero .hero-content .wrapper .headline,
+    .category section.hero .hero-content .wrapper .description {
+        text-align: start;
+    }
+
+    section.partner {
+        padding: 42px 0;
+    }
+
+    section.partner .partner-primary img:nth-child(5),
+    section.partner .partner-secondary img:nth-child(5),
+    section.partner .partner-primary img:nth-child(6),
+    section.partner .partner-secondary img:nth-child(6),
+    section.partner .partner-primary img:nth-child(7),
+    section.partner .partner-secondary img:nth-child(7) {
+        display: none;
+    }
+
+    section.benefit .section-header,
+    section.course .section-header,
+    section.testimonial .section-header,
+    .about section.vision .section-header,
+    .about section.mission .section-header,
+    .about section.team .section-header,
+    .course section.category .section-header,
+    .course section.course .section-header {
+        flex-direction: column;
+        gap: 16px;
+        align-items: start;
+    }
+
+    .about section.vision .section-header,
+    .about section.mission .section-header {
+        gap: 20px 30px;
+    }
+
+    .section-header .header-left,
+    .section-header .header-right {
+        width: 100%;
+    }
+
+    section.benefit .section-content,
+    .about section.vision .section-content,
+    .about section.mission .section-content {
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+
+    .about section.team .section-content {
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+    }
+
+    .section-banner {
+        display: none;
+    }
+
+    section.why-choose-us .section-content,
+    .main section.about .section-content {
+        width: 100%;
+    }
+
+    section.course .section-content {
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+
+    section.testimonial .section-content {
+        grid-template-columns: auto auto;
+        height: 630px;
+    }
+
+    section.cta .content {
+        align-items: start;
+    }
+
+    section.cta .content .title {
+        font-size: 3rem;
+        font-family: var(--urbanist-semibold);
+        text-align: start;
+    }
+
+    section.cta .content .description {
+        text-align: start;
+        width: 100%;
+    }
+
+    .about section.history .container {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .about section.quote .content {
+        width: 100%;
+    }
+
+    .course section.category .section-content {
+        grid-template-columns: auto auto;
+    }
+
+    .course section.course .section-content.all-course,
+    .category section.course .section-content.all-course {
+        grid-template-columns: 30% 70%;
+    }
+
+    .course section.course .section-content.all-course .course-content,
+    .category section.course .section-content.all-course .course-content {
+        grid-template-columns: auto auto;
+    }
+
+    .profile section.hero .hero-content {
+        width: 100%;
+    }
+
+    .detail-course section.hero .hero-content {
+        width: 100%;
+    }
+
+    .detail-course section.detail {
+        width: 100%;
+    }
+
+    .card-detail-course {
+        display: none;
+    }
+
+    section.detail .wrapper-testimonial {
+        grid-template-columns: 50% 50%;
+    }
+
+    .detail-course section.detail .card-detail-course {
+        display: inline-block;
+        width: 100%;
+    }
+
+    section.detail .section-content {
+        grid-template-columns: auto;
+    }
+
+    .profile section.profile .section-content,
+    .profile section.course .section-content {
+        width: 100%;
+    }
+
+    .profile section.profile .section-content .content-image img {
+        width: 160px;
+    }
+
+    section.detail > .card-detail-course.fixed {
+        display: none;
+    }
+
+    .detail-course section.hero .hero-content,
+    section.detail {
+        grid-template-columns: auto;
+    }
+
+    .profile section.course .section-content {
+        grid-template-columns: auto auto;
+    }
+}
+/* END RESPONSIVE MD */
+
+/* RESPONSIVE SM */
+@media (max-width: 767.98px) {
+    .container {
+        padding: 0 32px;
+    }
+
+    .authentication-page .authentication-form {
+        width: 100%;
+        padding-top: 0;
+        align-items: center;
+    }
+
+    .authentication-page .authentication-form .content {
+        padding: 0 16px;
+    }
+
+    .navbar .navbar-category {
+        display: none !important;
+    }
+
+    section.hero .hero-content .wrapper {
+        margin-top: 122px;
+        margin-bottom: 62px;
+    }
+
+    section.hero.hero-small .hero-content .wrapper {
+        margin-top: 132px;
+    }
+
+    section.hero.hero-small .hero-content .wrapper .headline {
+        font-size: 2.375rem;
+    }
+
+    .headline {
+        font-size: 3.25rem;
+        font-family: var(--urbanist-bold);
+    }
+
+    section.partner .partner-primary img:nth-child(4),
+    section.partner .partner-secondary img:nth-child(4) {
+        display: none;
+    }
+
+    .content-gap {
+        margin-top: 36px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    section.benefit .section-content,
+    .about section.team .section-content {
+        gap: 16px;
+    }
+
+    .about section.vision .section-header,
+    .about section.mission .section-header {
+        gap: 16px 30px;
+    }
+
+    section.course .section-content,
+    .profile section.course .section-content {
+        grid-template-columns: auto;
+    }
+
+    .main section.about .section-content .content-value {
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+
+    section.testimonial .section-content,
+    section.detail .section-content {
+        grid-template-columns: auto;
+        gap: 16px;
+    }
+
+    section.testimonial .section-content.all .wrapper-testimonial .button-primary {
+        transform: translateY(86px);
+    }
+
+    section.cta .background-light-blur {
+        top: -114%;
+    }
+
+    .footer {
+        padding: 24px 24px 82px 24px;
+    }
+
+    .footer .footer-list {
+        grid-template-columns: 50% 50%;
+        gap: 42px 0;
+    }
+
+    .copyright p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .copyright .badge-language {
+        display: none;
+    }
+
+    .about section.history .content-value {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .about section.quote .content {
+        align-items: start;
+    }
+
+    .about section.quote .quote-message,
+    .about section.quote .quote-author {
+        text-align: start;
+    }
+
+    .about section.team .section-content {
+        grid-template-columns: auto auto;
+        gap: 16px;
+    }
+
+    .about section.team .section-content .team-data a {
+        display: none;
+    }
+
+    .course section.category .section-content {
+        gap: 16px;
+    }
+
+    .course section.course .section-content.all-course,
+    .category section.course .section-content.all-course {
+        grid-template-columns: 100%;
+        gap: 24px;
+    }
+
+    .course section.course .section-content.all-course .course-content,
+    .category section.course .section-content.all-course .course-content {
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+
+    .category section.hero .hero-content {
+        width: 100%;
+    }
+
+    section.detail .wrapper-testimonial {
+        grid-template-columns: 100%;
+        gap: 42px;
+    }
+
+    .detail-course section.detail .card-detail-course {
+        width: -webkit-fill-available;
+    }
+
+    .detail-course section.detail .detail-wrapper.learn .wrapper-list .list-item {
+        align-items: start;
+    }
+
+    .detail-course section.detail .detail-wrapper .duration {
+        display: none;
+    }
+
+    .detail-course section.detail .detail-wrapper .instructor-card .card-header .header-sosmed {
+        display: none;
+    }
+}
+/* END RESPONSIVE SM */
+
+/* RESPONSIVE SX */
+@media (max-width: 575.98px) {
+    .container {
+        padding: 0 16px;
+    }
+
+    .navbar .navbar-link .link-item {
+        display: none;
+    }
+
+    .navbar .navbar-link .link-profile .profile-wrapper:nth-child(3) {
+        display: none;
+    }
+
+    .navbar .navbar-link .link-profile .profile-wrapper:nth-child(4) {
+        display: flex;
+    }
+
+    section.partner .partner-primary img:nth-child(3),
+    section.partner .partner-secondary img:nth-child(3) {
+        display: none;
+    }
+}
+/* END RESPONSIVE SX */

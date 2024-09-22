@@ -1,0 +1,124 @@
+/* FOOTER COMPONENT */
+.footer {
+    padding: 24px 50px 82px 50px;
+    border: var(--border-style) rgba(var(--light-color), 0.12);
+    border-radius: 24px;
+    background-color: rgba(var(--light-color), 0.02);
+    backdrop-filter: blur(4px);
+}
+
+.footer .footer-header {
+    width: 100%;
+    padding-bottom: 24px;
+    border-bottom: var(--border-style) rgba(var(--light-color), 0.12);
+    margin-bottom: 42px;
+}
+
+.footer .footer-header .sosmed-group {
+    gap: 4px;
+}
+
+.footer .footer-header .sosmed-item {
+    border-radius: 4px;
+    border: var(--border-style) rgba(var(--light-color), 0.12);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(var(--dark-color), 1);
+}
+
+.footer .footer-header .sosmed-item .facebook-icon,
+.footer .footer-header .sosmed-item .whatsapp-icon,
+.footer .footer-header .sosmed-item .twitter-icon {
+    width: 16px;
+    height: 16px;
+    background-image: url("../../assets/icons/facebook-light.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer .footer-header .sosmed-item .whatsapp-icon {
+    background-image: url("../../assets/icons/whatsapp-light.svg");
+}
+
+.footer .footer-header .sosmed-item .twitter-icon {
+    background-image: url("../../assets/icons/twitter-light.svg");
+}
+
+.footer .footer-header .sosmed-item:hover {
+    background-color: rgba(var(--secondary-color), 1);
+    border-color: transparent;
+}
+
+.footer .footer-header .sosmed-item:hover .facebook-icon {
+    background-image: url("../../assets/icons/facebook-dark.svg");
+}
+
+.footer .footer-header .sosmed-item:hover .whatsapp-icon {
+    background-image: url("../../assets/icons/whatsapp-dark.svg");
+}
+
+.footer .footer-header .sosmed-item:hover .twitter-icon {
+    background-image: url("../../assets/icons/twitter-dark.svg");
+}
+
+.footer .footer-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+}
+
+.footer .footer-list .list-link {
+    gap: 16px;
+}
+
+.footer .footer-list .list-link h6 {
+    font-size: 1rem;
+    font-family: var(--urbanist-semibold);
+    color: rgba(var(--light-color), 1);
+    font-weight: normal;
+}
+
+.footer .footer-list .list-link a,
+.footer .footer-list .list-link button {
+    padding: 0;
+    border: none;
+    outline: none;
+    stroke: none;
+    background-color: transparent;
+    width: fit-content;
+    font-size: 0.875rem;
+    color: rgba(var(--light-color), 0.62);
+}
+
+.footer .footer-list .list-link a:hover,
+.footer .footer-list .list-link button:hover {
+    color: rgba(var(--light-color), 1);
+}
+
+.copyright {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.copyright p {
+    font-size: 0.875rem;
+    color: rgba(var(--light-color), 0.62);
+}
+
+.copyright .badge-language {
+    gap: 12px;
+    padding: 12px 16px;
+    border-radius: 9999px;
+    background-color: rgba(var(--light-color), 0.04);
+    border: var(--border-style) rgba(var(--light-color), 0.12);
+    outline: none;
+    stroke: none;
+}
+
+.copyright .badge-language span {
+    font-size: 0.875rem;
+    color: rgba(var(--light-color), 1);
+}
+/* END FOOTER COMPONENT */

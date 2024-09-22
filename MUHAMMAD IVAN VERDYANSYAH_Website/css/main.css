@@ -1,0 +1,147 @@
+/* FONT FACE */
+@font-face {
+    font-family: 'urbanist-extrabold';
+    src: url("../font/Urbanist-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'urbanist-bold';
+    src: url("../font/Urbanist-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'urbanist-semibold';
+    src: url("../font/Urbanist-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'urbanist-medium';
+    src: url("../font/Urbanist-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'urbanist-regular';
+    src: url("../font/Urbanist-Regular.ttf") format("truetype");
+}
+/* END FONT FACE */
+
+
+/* VARIABLE VALUE */
+:root {
+    --primary-color: 89, 92, 255;
+    --secondary-color: 198, 248, 255;
+    --dark-color: 18, 18, 18;
+    --light-color: 255, 255, 255;
+
+    --urbanist-regular: urbanist-regular, arial, helvetica, sans-serif;
+    --urbanist-medium: urbanist-medium, arial, helvetica, sans-serif;
+    --urbanist-semibold: urbanist-semibold, arial, helvetica, sans-serif;
+    --urbanist-bold: urbanist-bold, arial, helvetica, sans-serif;
+    --urbanist-extrabold: urbanist-extrabold, arial, helvetica, sans-serif;
+
+    --border-style: 1px solid;
+    --transition-duration: 250ms;
+}
+/* END VARIABLE VALUE */
+
+
+/* GENERAL STYLE */
+* {
+    font-family: var(--urbanist-medium);
+    transition: var(--transition-duration);
+    margin: 0;
+    padding: 0;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth !important;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: rgba(var(--light-color), 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    margin-bottom: 0;
+    color: rgba(var(--dark-color), 1);
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.container {
+    padding: 0 96px;
+    width: -webkit-fill-available;
+}
+
+.main-page {
+    position: relative;
+    width: 100%;
+    animation: fadeIn var(--transition-duration) ease-in-out forwards;
+}
+
+.main-page.hidden {
+    animation: fadeOut var(--transition-duration) ease-in-out forwards;
+}
+
+.main-page.slide-right {
+    animation: slidePageToRight var(--transition-duration) ease-in-out forwards;
+}
+
+.main-page.slide-left {
+    animation: slidePageToLeft var(--transition-duration) ease-in-out forwards;
+}
+
+.main-page.slide-bottom {
+    animation: slidePageToBottom var(--transition-duration) ease-in-out forwards;
+}
+
+.fade-in {
+    animation: fadeIn calc(var(--transition-duration) * 1.5) ease-out forwards;
+}
+
+.fade-out {
+    animation: fadeOut calc(var(--transition-duration) * 1.5) ease-out forwards;
+}
+
+.slide-right {
+    animation: slideFromRight calc(var(--transition-duration) * 1.5) ease-out forwards;
+}
+
+.slide-left {
+    animation: slideFromLeft calc(var(--transition-duration) * 1.5) ease-out forwards;
+}
+
+.slide-right-oblique {
+    animation: slideFromRightOblique calc(var(--transition-duration) * 1.5) ease-out forwards;
+}
+
+.slide-left-oblique {
+    animation: slideFromLeftOblique calc(var(--transition-duration) * 1.5) ease-out forwards;
+}
+
+.slide-top {
+    animation: slideFromTop calc(var(--transition-duration) * 1.5) ease-out forwards;
+}
+
+.slide-bottom {
+    animation: slideFromBottom calc(var(--transition-duration) * 1.5) ease-out forwards;
+}
+/* END GENERAL STYLE */

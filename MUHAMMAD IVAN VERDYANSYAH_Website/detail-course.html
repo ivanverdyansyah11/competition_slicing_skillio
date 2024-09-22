@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Detail Course Page | Skillio</title>
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/custom-keyframe.css">
+    <link rel="stylesheet" href="css/component.css">
+    <link rel="stylesheet" href="css/component/navbar.css">
+    <link rel="stylesheet" href="css/custom-framework.css">
+    <link rel="stylesheet" href="css/page/main.css">
+    <link rel="stylesheet" href="css/component/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- END STYLE CSS -->
+
+    <!-- FAVICON MATIC -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="assets/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="assets/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+    <!-- END FAVICON MATIC -->
+</head>
+<body>
+    <!-- MAIN PAGE -->
+    <div class="loader-page">
+        <div class="spinner"></div>
+    </div>
+    <main class="main-page hidden category detail-course">
+        <nav class="navbar d-flex flex-column">
+            <div class="navbar-link d-flex justify-content-center" style="width: 100%;">
+                <div class="container d-flex justify-content-between align-items-center">
+                    <div class="wrapper d-flex align-items-center">
+                        <a href="index.html" class="link-brand">
+                            <img src="assets/brands/brand-text-secondary.svg" alt="Brand Text" width="86" class="brand-text">
+                            <span class="brand-image"></span>
+                        </a>
+                        <div class="link-item d-flex align-items-center">
+                            <button class="button-category">Categories</button>
+                            <a href="index.html">Home</a>
+                            <a href="about.html">About</a>
+                            <a href="course.html" class="active">Course</a>
+                            <div class="popup d-flex">
+                                <div class="category-list hidden d-flex flex-column">
+                                </div>
+                                <div class="sub-category-list hidden d-flex flex-column">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="link-profile d-flex align-items-center">
+                        <a href="wishlist.html" class="profile-wrapper d-flex align-items-center justify-content-center">
+                            <img src="assets/icons/like-outline-light.svg" alt="Like Icon" width="18" class="like-icon">
+                        </a>
+                        <a href="cart.html" class="profile-wrapper d-flex align-items-center justify-content-center">
+                            <img src="assets/icons/cart-outline-light.svg" alt="Cart Icon" width="20" class="cart-icon">
+                        </a>
+                        <a href="profile.html" class="profile-wrapper d-flex align-items-center justify-content-center">
+                            <span class="profile-name">Aditya Prayatna</span>
+                            <img src="assets/profile/profile-image.svg" alt="Profile Image" class="profile-image">
+                        </a>
+                        <button class="profile-wrapper d-flex align-items-center justify-content-center hamburger">
+                            <img src="assets/icons/hamburger-light.svg" alt="Hamburger Icon" width="19" class="hamburger-icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-category d-flex justify-content-center align-items-center">
+                <div class="container d-flex justify-content-center align-items-center"></div>
+            </div>
+        </nav>
+        <div class="navbar-mobile hidden d-flex flex-column align-items-center justify-content-center">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="course.html">Course</a>
+            <a href="profile.html">Profile</a>
+        </div>
+        <section class="hero hero-small d-flex align-items-center" id="hero">
+            <div class="container d-flex align-items-end justify-content-start">
+                <img src="assets/components/component-doughnut.svg" alt="Component Doughnut" width="150" class="component-doughnut">
+                <div class="hero-content d-flex align-items-start justify-content-start">
+                    <div class="wrapper d-flex flex-column align-items-start">
+                        <p class="path d-flex align-items-center" style="gap: 12px; margin-bottom: 12px;">
+                            UI/UX Design
+                            <img src="assets/icons/arrow-right-light.svg" alt="Arrow Icon" width="6">
+                            User Interface Design
+                        </p>
+                        <h1 class="title" style="margin-bottom: 12px;">Android Developer: Build Apps Score Game</h1>
+                        <p class="description" style="margin-bottom: 16px;">In this class you will learn to build an Android application (To Do List) with Native Language (Kotlin) using a modern approach, namely Jetpack Compose.</p>
+                        <div class="wrapper-star d-flex align-items-center" style="gap: 8px; margin-bottom: 16px;">
+                            <p>(4.8)</p>
+                            <div class="wrapper-star d-flex align-items-center" style="gap: 2px;">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                            </div>
+                            <span style="margin-left: 8px;">(920,332 students)</span>
+                        </div>
+                        <div class="wrapper-detail d-flex align-items-center" style="gap: 24px;">
+                            <div class="item d-flex align-items-center" style="gap: 8px;">
+                                <img src="assets/icons/info-light.svg" alt="Info Icon" width="14">
+                                <p>Last updated 9/2024</p>
+                            </div>
+                            <div class="item d-flex align-items-center" style="gap: 8px;">
+                                <img src="assets/icons/language-light.svg" alt="Language Icon" width="14">
+                                <p>English</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="main-wrapper">
+            <div class="container content-gap">
+                <section class="detail" id="detail" style="padding-top: 24px;">
+                    <div class="detail-content d-flex flex-column" style="gap: 42px;">
+                        <div class="detail-wrapper">
+                            <h5 class="title" style="margin-bottom: 12px;">Description</h5>
+                            <p class="description content">In this class you will learn to build an Android application (To Do List) with Native Language (Kotlin) using a modern approach, namely Jetpack Compose. We hope, this new way can open your opportunity to become a Mobile Developer, where you are able to build applications on the Android and iOS Operating Systems.</p>
+                        </div>
+                        <div class="detail-wrapper learn">
+                            <h5 class="title" style="margin-bottom: 16px;">What you'll learn</h5>
+                            <div class="content wrapper-list d-flex flex-column" style="gap: 8px;">
+                                <div class="list-item d-flex align-items-center" style="gap: 8px;">
+                                    <img src="assets/icons/checklist-primary.svg" alt="Checklist Icon" width="20">
+                                    <p>How to set up Android Studio and create your first app.</p>
+                                </div>
+                                <div class="list-item d-flex align-items-center" style="gap: 8px;">
+                                    <img src="assets/icons/checklist-primary.svg" alt="Checklist Icon" width="20">
+                                    <p>Core concepts of Android development, including layouts and views.</p>
+                                </div>
+                                <div class="list-item d-flex align-items-center" style="gap: 8px;">
+                                    <img src="assets/icons/checklist-primary.svg" alt="Checklist Icon" width="20">
+                                    <p>Implementing user interfaces for score-based games.</p>
+                                </div>
+                                <div class="list-item d-flex align-items-center" style="gap: 8px;">
+                                    <img src="assets/icons/checklist-primary.svg" alt="Checklist Icon" width="20">
+                                    <p>Handling user input and game logic using Java or Kotlin.</p>
+                                </div>
+                                <div class="list-item d-flex align-items-center" style="gap: 8px;">
+                                    <img src="assets/icons/checklist-primary.svg" alt="Checklist Icon" width="20">
+                                    <p>Storing and retrieving game data using SQLite or shared preferences.</p>
+                                </div>
+                                <div class="list-item d-flex align-items-center" style="gap: 8px;">
+                                    <img src="assets/icons/checklist-primary.svg" alt="Checklist Icon" width="20">
+                                    <p>Best practices for app performance and optimization.</p>
+                                </div>
+                                <div class="list-item d-flex align-items-center" style="gap: 8px;">
+                                    <img src="assets/icons/checklist-primary.svg" alt="Checklist Icon" width="20">
+                                    <p>Deploying and publishing your app on the Google Play Store.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detail-wrapper">
+                            <h5 class="title" style="margin-bottom: 20px;">Course Lessons</h5>
+                            <div class="course-container content">
+                                <div class="course-section">
+                                    <div class="course-header d-flex align-items-center justify-content-between" data-target="#section1">
+                                        <div class="wrapper-title d-flex align-items-center" style="gap: 12px;">
+                                            <img src="assets/icons/arrow-down-dark.svg" alt="Arrow Down Icon" width="10" class="arrow-icon">
+                                            Introduction to Android Development
+                                        </div>
+                                        <span class="duration">Duration: 1 hour</span>
+                                    </div>
+                                    <div class="course-content" id="section1">
+                                        <ul>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Overview of Android and Mobile App Development
+                                            </li>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Setting Up Android Studio
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="course-section">
+                                    <div class="course-header d-flex align-items-center justify-content-between" data-target="#section2">
+                                        <div class="wrapper-title d-flex align-items-center" style="gap: 12px;">
+                                            <img src="assets/icons/arrow-down-dark.svg" alt="Arrow Down Icon" width="10" class="arrow-icon">
+                                            Getting Started with Your First Android App
+                                        </div>
+                                        <span class="duration">Duration: 2 hours</span>
+                                    </div>
+                                    <div class="course-content" id="section2">
+                                        <ul>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Creating a New Android Project
+                                            </li>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Understanding Android Project Structure
+                                            </li>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Running Your First App
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="course-section">
+                                    <div class="course-header d-flex align-items-center justify-content-between" data-target="#section3">
+                                        <div class="wrapper-tit d-flex align-items-center" style="gap: 12px;">
+                                            <img src="assets/icons/arrow-down-dark.svg" alt="Arrow Down Icon" width="10" class="arrow-icon">
+                                            User Interface Design
+                                        </div>
+                                        <span class="duration">Duration: 3 hours</span>
+                                    </div>
+                                    <div class="course-content" id="section3">
+                                        <ul>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Building Layouts with XML
+                                            </li>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Views and ViewGroups: Buttons, TextViews, and ImageViews
+                                            </li>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Designing User Interfaces for Score-based Games
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="course-section">
+                                    <div class="course-header d-flex align-items-center justify-content-between" data-target="#section4">
+                                        <div class="wrapper-title d-flex align-items-center" style="gap: 12px;">
+                                            <img src="assets/icons/arrow-down-dark.svg" alt="Arrow Down Icon" width="10" class="arrow-icon">
+                                            Game Logic and User Interaction
+                                        </div>
+                                        <span class="duration">Duration: 3 hours</span>
+                                    </div>
+                                    <div class="course-content" id="section4">
+                                        <ul>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Handling User Input (Touch and Gesture Events)
+                                            </li>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Implementing Game Score Logic
+                                            </li>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Timers and Animation for Games
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="course-section">
+                                    <div class="course-header d-flex align-items-center justify-content-between" data-target="#section5">
+                                        <div class="wrapper-title d-flex align-items-center" style="gap: 12px;">
+                                            <img src="assets/icons/arrow-down-dark.svg" alt="Arrow Down Icon" width="10" class="arrow-icon">
+                                            Storing Game Data
+                                        </div>
+                                        <span class="duration">Duration: 2 hours</span>
+                                    </div>
+                                    <div class="course-content" id="section5">
+                                        <ul>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Working with Shared Preferences
+                                            </li>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Using SQLite for Game Data Persistence
+                                            </li>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Saving and Loading Game Scores
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="course-section">
+                                    <div class="course-header d-flex align-items-center justify-content-between" data-target="#section6">
+                                        <div class="wrapper-title d-flex align-items-center" style="gap: 12px;">
+                                            <img src="assets/icons/arrow-down-dark.svg" alt="Arrow Down Icon" width="10" class="arrow-icon">
+                                            Optimizing Game Performance
+                                        </div>
+                                        <span class="duration">Duration: 2 hours</span>
+                                    </div>
+                                    <div class="course-content" id="section6">
+                                        <ul>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Improving App Performance with Efficient Code
+                                            </li>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Managing Resources and Memory Optimization
+                                            </li>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Best Practices for Mobile Game Development
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="course-section">
+                                    <div class="course-header d-flex align-items-center justify-content-between" data-target="#section7">
+                                        <div class="wrapper-title d-flex align-items-center" style="gap: 12px;">
+                                            <img src="assets/icons/arrow-down-dark.svg" alt="Arrow Down Icon" width="10" class="arrow-icon">
+                                            Testing and Debugging
+                                        </div>
+                                        <span class="duration">Duration: 1.5 hours</span>
+                                    </div>
+                                    <div class="course-content" id="section7">
+                                        <ul>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Debugging Android Apps Using Logcat
+                                            </li>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Testing Game Features and User Flows
+                                            </li>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Common Bugs in Game Development and How to Fix Them
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="course-section">
+                                    <div class="course-header d-flex align-items-center justify-content-between" data-target="#section8">
+                                        <div class="wrapper-title d-flex align-items-center" style="gap: 12px;">
+                                            <img src="assets/icons/arrow-down-dark.svg" alt="Arrow Down Icon" width="10" class="arrow-icon">
+                                            Deploying Your Game
+                                        </div>
+                                        <span class="duration">Duration: 2 hours</span>
+                                    </div>
+                                    <div class="course-content" id="section8">
+                                        <ul>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Preparing Your App for Release
+                                            </li>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Publishing Your App on Google Play Store
+                                            </li>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Post-launch Maintenance and Updates
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="course-section">
+                                    <div class="course-header d-flex align-items-center justify-content-between" data-target="#section9">
+                                        <div class="wrapper-title d-flex align-items-center" style="gap: 12px;">
+                                            <img src="assets/icons/arrow-down-dark.svg" alt="Arrow Down Icon" width="10" class="arrow-icon">
+                                            Final Project
+                                        </div>
+                                        <span class="duration">Duration: 4 hours</span>
+                                    </div>
+                                    <div class="course-content" id="section9">
+                                        <ul>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Build a Complete Score Game from Scratch
+                                            </li>
+                                            <li class="d-flex align-items-center" style="gap: 12px;">
+                                                <img src="assets/icons/tv-dark.svg" alt="Tv Icon" width="18">
+                                                Submit and Present Your Final Game Project
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detail-wrapper">
+                            <h5 class="title" style="margin-bottom: 16px;">Requirement</h5>
+                            <div class="content wrapper-list d-flex flex-column" style="gap: 8px;">
+                                <div class="list-item d-flex align-items-center" style="gap: 8px;">
+                                    <img src="assets/icons/checklist-primary.svg" alt="Checklist Icon" width="20">
+                                    <p>Basic Understanding of Programming Concepts</p>
+                                </div>
+                                <div class="list-item d-flex align-items-center" style="gap: 8px;">
+                                    <img src="assets/icons/checklist-primary.svg" alt="Checklist Icon" width="20">
+                                    <p>A Computer with Internet Access</p>
+                                </div>
+                                <div class="list-item d-flex align-items-center" style="gap: 8px;">
+                                    <img src="assets/icons/checklist-primary.svg" alt="Checklist Icon" width="20">
+                                    <p>Android Studio Installed</p>
+                                </div>
+                                <div class="list-item d-flex align-items-center" style="gap: 8px;">
+                                    <img src="assets/icons/checklist-primary.svg" alt="Checklist Icon" width="20">
+                                    <p>Motivation to Build Android Apps</p>
+                                </div>
+                                <div class="list-item d-flex align-items-center" style="gap: 8px;">
+                                    <img src="assets/icons/checklist-primary.svg" alt="Checklist Icon" width="20">
+                                    <p>No Prior Android Development Experience Needed</p>
+                                </div>
+                                <div class="list-item d-flex align-items-center" style="gap: 8px;">
+                                    <img src="assets/icons/checklist-primary.svg" alt="Checklist Icon" width="20">
+                                    <p>Basic Knowledge of Java or Kotlin (Optional)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detail-wrapper">
+                            <h5 class="title" style="margin-bottom: 16px;">Instructor</h5>
+                            <div class="instructor-card content">
+                                <div class="card-header d-flex align-items-center justify-content-between">
+                                    <div class="header-profile d-flex align-items-center" style="gap: 16px;">
+                                        <img src="assets/profile/profile-other.svg" alt="Profile Image" width="52" style="border-radius: 9999px;">
+                                        <div class="wrapper d-flex flex-column" style="gap: 4px;">
+                                            <h5>Robby Dianputra</h5>
+                                            <p>UI/UX Design</p>
+                                        </div>
+                                    </div>
+                                    <div class="header-sosmed d-flex align-items-center" style="gap: 4px;">
+                                        <a href="https://www.facebook.com/" target="_blank" class="sosmed-item d-flex align-items-center justify-content-center">
+                                            <span class="facebook-icon"></span>
+                                        </a>
+                                        <a href="https://www.linkedin.com/" target="_blank" class="sosmed-item d-flex align-items-center justify-content-center">
+                                            <span class="linkedin-icon"></span>
+                                        </a>
+                                        <a href="https://www.twitter.com/" target="_blank" class="sosmed-item d-flex align-items-center justify-content-center">
+                                            <span class="twitter-icon"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="card-description">Robby Dianputra is an experienced instructor passionate about empowering students with practical skills in mobile app development and game design. With a strong background in Android development, Robby has taught hundreds of students how to build professional-grade apps, focusing on hands-on projects and real-world applications to ensure a comprehensive learning experience. He is dedicated to guiding learners from the basics to advanced topics, fostering both creativity and technical excellence.</p>
+                                <div class="card-detail d-flex align-items-center" style="gap: 12px 24px; flex-wrap: wrap">
+                                    <div class="detail-item d-flex align-items-center" style="gap: 6px;">
+                                        <img src="assets/icons/star-primary.svg" alt="Star Icon" width="16">
+                                        <p>4.7 Instructor Rating</p>
+                                    </div>
+                                    <div class="detail-item d-flex align-items-center" style="gap: 6px;">
+                                        <img src="assets/icons/award-primary.svg" alt="Award Icon" width="11">
+                                        <p>539,583 Reviews</p>
+                                    </div>
+                                    <div class="detail-item d-flex align-items-center" style="gap: 6px;">
+                                        <img src="assets/icons/user-primary.svg" alt="Star Icon" width="12">
+                                        <p>1,771,987 Students</p>
+                                    </div>
+                                    <div class="detail-item d-flex align-items-center" style="gap: 6px;">
+                                        <img src="assets/icons/play-video-primary.svg" alt="Star Icon" width="14">
+                                        <p>30 Courses</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detail-wrapper">
+                            <h5 class="title" style="margin-bottom: 16px;">Course Rating</h5>
+                            <div class="wrapper-testimonial content">
+                                <div class="section-content">
+                                    <div class="content-testimonial d-flex flex-column justify-content-between">
+                                        <div class="wrapper">
+                                            <div class="testimonial-rating d-flex align-items-center">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <p>(4.7)</p>
+                                            </div>
+                                            <p class="testimonial-message">“Learn at your own pace with courses designed to fit your schedule, whether you're a beginner or an experienced professional.”</p>
+                                        </div>
+                                        <div class="testimonial-profile d-flex align-items-center">
+                                            <img src="assets/testimonials/testimonial-1.jpg" alt="Testimonial Image" width="46">
+                                            <div class="profile-data d-flex flex-column">
+                                                <h6>Andi Wijaya</h6>
+                                                <p>Data Analyst</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content-testimonial d-flex flex-column justify-content-between">
+                                        <div class="wrapper">
+                                            <div class="testimonial-rating d-flex align-items-center">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <p>(4.9)</p>
+                                            </div>
+                                            <p class="testimonial-message">“Skillio gave me the confidence to dive deep into data science. The hands-on projects and industry relevant curriculum helped me land my dream.”</p>
+                                        </div>
+                                        <div class="testimonial-profile d-flex align-items-center">
+                                            <img src="assets/testimonials/testimonial-2.jpg" alt="Testimonial Image" width="46">
+                                            <div class="profile-data d-flex flex-column">
+                                                <h6>Siti Rahma</h6>
+                                                <p>Front-End Developer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content-testimonial d-flex flex-column justify-content-between">
+                                        <div class="wrapper">
+                                            <div class="testimonial-rating d-flex align-items-center">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <p>(5.0)</p>
+                                            </div>
+                                            <p class="testimonial-message">“The courses at Skillio are exactly what I needed to build my skills. The interactive lessons made learning JavaScript so much easier.”</p>
+                                        </div>
+                                        <div class="testimonial-profile d-flex align-items-center">
+                                            <img src="assets/testimonials/testimonial-3.jpg" alt="Testimonial Image" width="46">
+                                            <div class="profile-data d-flex flex-column">
+                                                <h6>Budi Santoso</h6>
+                                                <p>Project Manager</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content-testimonial d-flex flex-column justify-content-between">
+                                        <div class="wrapper">
+                                            <div class="testimonial-rating d-flex align-items-center">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                                <p>(4.6)</p>
+                                            </div>
+                                            <p class="testimonial-message">“Skillio’s project management course opened my eyes to new methodologies. Thanks to the practical training, I can now lead teams more effectively.”</p>
+                                        </div>
+                                        <div class="testimonial-profile d-flex align-items-center">
+                                            <img src="assets/testimonials/testimonial-4.jpg" alt="Testimonial Image" width="46">
+                                            <div class="profile-data d-flex flex-column">
+                                                <h6>Laila Amira</h6>
+                                                <p>UX/UI Designer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-detail-course">
+                                    <div class="detail-image">
+                                        <img src="assets/courses/course-29.jpg" alt="Course Image">
+                                        <div class="cover-image"></div>
+                                        <img src="assets/icons/play-video.svg" alt="Play Video Icon" width="42">
+                                    </div>
+                                    <div class="detail-content d-flex flex-column" style="gap: 20px;">
+                                        <div class="content-price d-flex justify-content-between align-items-end">
+                                            <h4>IDR. 120.000</h4>
+                                            <h6>IDR. 200.000</h6>
+                                        </div>
+                                        <div class="content-button">
+                                            <button type="button" class="button-primary">
+                                                <span>Add to Cart</span>
+                                            </button>
+                                            <button type="button" class="button-like d-flex align-items-center justify-content-center">
+                                                <span class="like-icon"></span>
+                                            </button>
+                                        </div>
+                                        <div class="content-other d-flex flex-column" style="gap: 4px;">
+                                            <p>30-Day Money-Back Guarantee</p>
+                                            <p>Cancel anytime</p>
+                                        </div>
+                                        <div class="content-coupon">
+                                            <input type="text" class="input" autocomplete="off" placeholder="Enter your coupon..">
+                                            <button type="button" class="button-primary" style="width: fit-content !important;">
+                                                <span>Submit</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-detail-course fixed">
+                        <div class="detail-image">
+                            <img src="assets/courses/course-29.jpg" alt="Course Image">
+                            <div class="cover-image"></div>
+                            <img src="assets/icons/play-video.svg" alt="Play Video Icon" width="42">
+                        </div>
+                        <div class="detail-content d-flex flex-column" style="gap: 20px;">
+                            <div class="content-price d-flex justify-content-between align-items-end">
+                                <h4>IDR. 120.000</h4>
+                                <h6>IDR. 200.000</h6>
+                            </div>
+                            <div class="content-button">
+                                <button type="button" class="button-primary">
+                                    <span>Add to Cart</span>
+                                </button>
+                                <button type="button" class="button-like d-flex align-items-center justify-content-center">
+                                    <span class="like-icon"></span>
+                                </button>
+                            </div>
+                            <div class="content-other d-flex flex-column" style="gap: 4px;">
+                                <p>30-Day Money-Back Guarantee</p>
+                                <p>Cancel anytime</p>
+                            </div>
+                            <div class="content-coupon">
+                                <input type="text" class="input" autocomplete="off" placeholder="Enter your coupon..">
+                                <button type="button" class="button-primary" style="width: fit-content !important;">
+                                    <span>Submit</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="main-footer">
+            <section class="cta" id="cta">
+                <div class="container d-flex justify-content-center" style="position: relative;">
+                    <div class="content d-flex flex-column align-items-center">
+                        <h2 class="title">Unlock Your Potential and Start Building the Career of Your Dreams</h2>
+                        <p class="description">Your future starts here. Whether you’re looking to sharpen your skills or explore new opportunities, Skillio is the platform that will guide you toward success. Join our growing community of learners and professionals who are shaping the future of work through knowledge and innovation.</p>
+                        <div class="button-group d-flex align-items-center">
+                            <a href="index.html" class="button-primary reverse" style="width: fit-content !important;">
+                                <span>Get Started Now</span>
+                            </a>
+                            <a href="course.html" class="button-secondary">
+                                <span>Browse Courses</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/components/component-rounded-light.svg" alt="Background Light Blur" width="1200" class="background-light-blur">
+            </section>
+            <div class="container">
+                <footer class="footer" id="footer">
+                    <div class="footer-header d-flex justify-content-between align-items-center">
+                        <a href="index.html">
+                            <img src="assets/brands/brand-text-secondary.svg" alt="Brand Text" width="82">
+                        </a>
+                        <div class="sosmed-group d-flex align-items-center">
+                            <a href="https://www.facebook.com/" target="_blank" class="sosmed-item d-flex align-items-center justify-content-center">
+                                <span class="facebook-icon"></span>
+                            </a>
+                            <a href="https://www.whatsapp.com/" target="_blank" class="sosmed-item d-flex align-items-center justify-content-center">
+                                <span class="whatsapp-icon"></span>
+                            </a>
+                            <a href="https://www.twitter.com/" target="_blank" class="sosmed-item d-flex align-items-center justify-content-center">
+                                <span class="twitter-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-list">
+                        <div class="list-link d-flex flex-column">
+                            <h6>Quick Link</h6>
+                            <a href="index.html">Home</a>
+                            <a href="category.html">Categories</a>
+                            <a href="about.html">About Us</a>
+                            <a href="course.html">Course</a>
+                        </div>
+                        <div class="list-link d-flex flex-column">
+                            <h6>Why Choose Us</h6>
+                            <a href="index.html#whyChooseUs">Tailored Learning Paths</a>
+                            <a href="index.html#whyChooseUs">Top-Tier Instructors</a>
+                            <a href="index.html#whyChooseUs">Interactive Community</a>
+                            <a href="index.html#whyChooseUs">Comprehensive Support</a>
+                            <a href="index.html#whyChooseUs">Real-World Skills</a>
+                        </div>
+                        <div class="list-link d-flex flex-column">
+                            <h6>Benefit With Us</h6>
+                            <a href="index.html#benefit">Flexible Learning</a>
+                            <a href="index.html#benefit">Expert Mentors</a>
+                            <a href="index.html#benefit">Real-World Projects</a>
+                            <a href="index.html#benefit">Career Growth Opportunities</a>
+                        </div>
+                        <div class="list-link d-flex flex-column">
+                            <h6>Help & Guide</h6>
+                            <button type="button">Terms & Conditions</button>
+                            <button type="button">Privacy Policy</button>
+                            <button type="button">Contact Us</button>
+                        </div>
+                    </div>
+                </footer>
+                <div class="copyright d-flex align-items-center justify-content-between">
+                    <p>Copyright © 2024 Skillio. All Right Reserved.</p>
+                    <button type="button" class="badge-language d-flex align-items-center">
+                        <img src="assets/icons/indonesia-flag.svg" alt="Indonesian Flag" width="16">
+                        <span>Indonesian</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- END MAIN PAGE -->
+
+    <!-- SCRIPT JS -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/animation/animation-navbar.js"></script>
+    <script src="js/animation/animation-detail-course.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.detail-course section.detail .detail-wrapper .course-header').on('click', function() {
+                let target = $(this).data('target')
+                $(this).find('.arrow-icon').toggleClass('rotate')
+                $('.course-content').not($(target)).slideUp()
+                $('.course-header').not($(this)).find('.arrow-icon').removeClass('rotate')
+                $(target).slideToggle()
+            })
+        })
+    </script>
+    <!-- SCRIPT JS -->
+</body>
+</html>

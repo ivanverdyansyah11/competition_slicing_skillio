@@ -1,0 +1,629 @@
+[
+  {
+    "course_title": "Create an Attractive Portfolio Design with Adobe XD",
+    "description": "To work in a creative field, one of the most important things needed is a portfolio that sells. A portfolio is a collection of your best work that reflects a designer's style or personality. In order to attract clients/recruiters, you must be able to present your work in a portfolio in a simple and digestible way but can show your identity in your work.",
+    "price": 100000,
+    "discount": 75000,
+    "category": "UI/UX Design",
+    "sub-category": "User Interface Design",
+    "rating": 4.7,
+    "student": 2308,
+    "duration": 10,
+    "level": "Beginner",
+    "payment": "Paid",
+    "image": "course-1.jpg",
+    "instructor": {
+      "name": "Fini Charisa",
+      "bio": "Fini Charisa is an experienced instructor with expertise in digital education and skill development. Her teaching focuses on delivering comprehensive, hands-on learning experiences in areas such as UI/UX design, mobile app development, and data analysis. With a passion for empowering students to master in-demand skills, Fini's courses are designed to help learners succeed in competitive job markets. She is dedicated to fostering growth through interactive and practical learning methods that ensure a deep understanding of complex topics.",
+      "image": "instructor-1.jpg"
+    }
+  },
+  {
+    "course_title": "Mastering Midjourney: Create a Stunning UI UX Design",
+    "description": "Welcome to our Midjourney course, a tailor-made learning platform for creatives and design enthusiasts. Here, we'll take you into the world of AI art, teaching you how to use Midjourney to generate astonishing design materials with simple learning steps.",
+    "price": 150000,
+    "discount": 100000,
+    "category": "UI/UX Design",
+    "sub-category": "User Experience Research",
+    "rating": 4.8,
+    "student": 5218,
+    "duration": 12,
+    "level": "Beginner",
+    "payment": "Paid",
+    "image": "course-2.jpg",
+    "instructor": {
+      "name": "Fini Charisa",
+      "bio": "Fini Charisa is an experienced instructor with expertise in digital education and skill development. Her teaching focuses on delivering comprehensive, hands-on learning experiences in areas such as UI/UX design, mobile app development, and data analysis. With a passion for empowering students to master in-demand skills, Fini's courses are designed to help learners succeed in competitive job markets. She is dedicated to fostering growth through interactive and practical learning methods that ensure a deep understanding of complex topics.",
+      "image": "instructor-1.jpg"
+    }
+  },
+  {
+    "course_title": "Mastering Mobile UI Design for Beginners with Figma",
+    "description": "Welcome to our comprehensive Figma course, crafted meticulously for both budding designers and seasoned professionals alike. In this journey, you will learn to replicate an exceptional design piece using Figma, gaining insights into my entire workflow. This course is designed to share my personal design system management, adaptive layout considerations, and a plethora of professional tips and tricks.",
+    "price": 0,
+    "discount": 0,
+    "category": "UI/UX Design",
+    "sub-category": "Wireframing & Prototyping",
+    "rating": 4.7,
+    "student": 10567,
+    "duration": 24,
+    "level": "Beginner",
+    "payment": "Free",
+    "image": "course-3.jpg",
+    "instructor": {
+      "name": "Fini Charisa",
+      "bio": "Fini Charisa is an experienced instructor with expertise in digital education and skill development. Her teaching focuses on delivering comprehensive, hands-on learning experiences in areas such as UI/UX design, mobile app development, and data analysis. With a passion for empowering students to master in-demand skills, Fini's courses are designed to help learners succeed in competitive job markets. She is dedicated to fostering growth through interactive and practical learning methods that ensure a deep understanding of complex topics.",
+      "image": "instructor-1.jpg"
+    }
+  },
+  {
+    "course_title": "UI/UX Passive Income: First 100 Million Selling UI Kit Templates",
+    "description": "In this rapidly growing digital age, finding ways to generate passive income is a dream for many. One promising way to make a living as a UI/UX designer is by creating and selling UI Kits on leading platforms like UI8. UI8 adalah sebuah platform online yang terkemuka dalam dunia desain. Website ini menawarkan berbagai macam resource digital yang sangat berguna bagi UI/UX desainer, pengembang, dan profesional kreatif lainnya. Banyaknya visitor website ini setiap harinya, memberikan peluang bagi kita untuk memanfaatkan market yang besar ini dan menjadi seller di website UI8. Sayangnya, masih banyak sekali designer yang bingung harus mulai darimana jika ingin membuka toko & menjual produk di UI8.",
+    "price": 300000,
+    "discount": 250000,
+    "category": "UI/UX Design",
+    "sub-category": "Interaction Design",
+    "rating": 4.9,
+    "student": 34543,
+    "duration": 18,
+    "level": "Expert",
+    "payment": "Paid",
+    "image": "course-4.jpg",
+    "instructor": {
+      "name": "Ahmad Zahraturrafiq",
+      "bio": "Ahmad Zahraturrafiq is a highly skilled instructor with expertise in his field. Known for his engaging teaching style, Ahmad delivers content that is both insightful and practical, ensuring students gain a comprehensive understanding of the subject. His passion for education and dedication to helping others achieve their goals make him a valued instructor in the learning community.",
+      "image": "instructor-2.jpg"
+    }
+  },
+  {
+    "course_title": "SQL for Beginners: Learn SQL using MySQL and Database Design",
+    "description": "Charles Bachman created the database so that data has an easy-to-understand appearance and can certainly be managed by many users. Data that is neatly organized through a Database Management System (DBMS), can facilitate our needs in application development. By mastering DBMS, we can easily search or change data as needed, process big data, and speed up application performance efficiently. In this class, Mentor will explain database management with MySQL. We will start with an introduction to database basics (data, DBMS, SQL) and storage engine in DBMS. In MySQL software, we will build a “Flying” database starting from setting up tables, organizing fields and filling in data types. In addition, we also use TablePlus because the query language is more flexible and the database results are easily understood through a user-friendly display. This class uses the tools XAMPP, Beekeeper Studio, Dbeaver, Mamp, Table Plus and MySQL 5.7.",
+    "price": 250000,
+    "discount": 200000,
+    "category": "UI/UX Design",
+    "sub-category": "Usability Testing",
+    "rating": 5.0,
+    "student": 4544,
+    "duration": 23,
+    "level": "Intermediate",
+    "payment": "Paid",
+    "image": "course-5.jpg",
+    "instructor": {
+      "name": "Ahmad Zahraturrafiq",
+      "bio": "Ahmad Zahraturrafiq is a highly skilled instructor with expertise in his field. Known for his engaging teaching style, Ahmad delivers content that is both insightful and practical, ensuring students gain a comprehensive understanding of the subject. His passion for education and dedication to helping others achieve their goals make him a valued instructor in the learning community.",
+      "image": "instructor-2.jpg"
+    }
+  },
+  {
+    "course_title": "Become a Freelance Web Developer with WordPress and Elementor",
+    "description": "In today's digital era, many large companies start their business online to reach a wider range of potential customers. The role of a freelance website developer is increasingly sought after with high paying countries such as Singapore, Hong Kong, Canada, and the United States. In the Become a Freelance WordPress Developer for Beginners 2023 free online class, we will learn how to start a career as a freelance website developer, get to know freelancers, how they work, and then build the first portfolio that sells.",
+    "price": 200000,
+    "discount": 120000,
+    "category": "Graphic Design",
+    "sub-category": "Branding & Logo Design",
+    "rating": 4.8,
+    "student": 6457,
+    "duration": 15,
+    "level": "Beginner",
+    "payment": "Paid",
+    "image": "course-6.jpg",
+    "instructor": {
+      "name": "Angga Risky",
+      "bio": "Angga Risky is an experienced professional in the digital design and development field, specializing in UI/UX design, mobile app development, and digital product strategies. With a passion for creating intuitive user experiences and a strong focus on practical, hands-on training, Angga empowers students and professionals to turn their ideas into fully functioning digital products.",
+      "image": "instructor-3.jpg"
+    }
+  },
+  {
+    "course_title": "Design Handoff: How UI/UX Designers Collaborate with Developers",
+    "description": "As a UI/UX Designer, our main task is not only to design a beautiful and attractive website or application. But in achieving a big goal in the company, we must be able to work together with a team of developers, marketing, and others. In this class, we will learn with mentor Angga, a Senior Product Manager who has worked with large companies. Angga will share his best skills and experiences to help us get better at building good projects. In the future, we will be able to be more cooperative and reliable by the team so that we can be called a Professional Designer. Please join us to build a good portfolio and also prepare a mature career. Perfect place to start your career. BuildWithAngga.",
+    "price": 350000,
+    "discount": 200000,
+    "category": "Graphic Design",
+    "sub-category": "Print Design",
+    "rating": 4.9,
+    "student": 3434,
+    "duration": 12,
+    "level": "Intermediate",
+    "payment": "Paid",
+    "image": "course-7.jpg",
+    "instructor": {
+      "name": "Angga Risky",
+      "bio": "Angga Risky is an experienced professional in the digital design and development field, specializing in UI/UX design, mobile app development, and digital product strategies. With a passion for creating intuitive user experiences and a strong focus on practical, hands-on training, Angga empowers students and professionals to turn their ideas into fully functioning digital products.",
+      "image": "instructor-3.jpg"
+    }
+  },
+  {
+    "course_title": "Bootcamp UI / UX Design with Figma: Build E-Wallet Apps",
+    "description": "The UI/UX field is very important to learn and is also in high demand these days. Why is UI/UX important? With a good UI/UX implementation, it will be able to help a mobile application become more comfortable to use by many users. UI/UX also plays a big role in increasing overall user satisfaction. To support the purpose of UI/UX, this time with mentor Herdetya, we will learn to design a digital wallet or E-Wallet using Figma according to good UI/UX principles. We will start learning from how to design an E-Wallet application from scratch.",
+    "price": 350000,
+    "discount": 200000,
+    "category": "Graphic Design",
+    "sub-category": "Print Design",
+    "rating": 4.9,
+    "student": 3434,
+    "duration": 12,
+    "level": "Intermediate",
+    "payment": "Paid",
+    "image": "course-8.jpg",
+    "instructor": {
+      "name": "Herdetya",
+      "bio": "Herdetya is an experienced professional specializing in human resource optimization and development. With a passion for fostering talent and unlocking potential, Herdetya is committed to guiding individuals and teams through comprehensive training programs. His focus is on enhancing workforce capabilities to align with modern industry standards, empowering them to thrive in competitive environments.",
+      "image": "instructor-4.jpg"
+    }
+  },
+  {
+    "course_title": "UI/UX Design & Webflow Developer: Create a Freelancer Portfolio Website",
+    "description": "Portfolio is the main selling point when we are working as a Freelancer or Full-Time UI/UX Designer, Web Developer, Graphic Designer, Copywriter, or any other career field that we will focus on. This class will help us to design and build a portfolio website without having to code. Starting from the UI/UX process using Figma and Miro to design landing pages and case study pages, then it will continue to the web development process using Webflow software (make a website without coding). By having a portfolio website and some of the best work in it, we can be more mature to focus on a career and get a large income as a designer or developer. Learning with experienced mentors will be easier and more focused without having to bother browsing here and there.",
+    "price": 400000,
+    "discount": 350000,
+    "category": "Graphic Design",
+    "sub-category": "Motion Graphics",
+    "rating": 4.7,
+    "student": 4657,
+    "duration": 18,
+    "level": "Expert",
+    "payment": "Paid",
+    "image": "course-9.jpg",
+    "instructor": {
+      "name": "Angga Risky",
+      "bio": "Angga Risky is an experienced professional in the digital design and development field, specializing in UI/UX design, mobile app development, and digital product strategies. With a passion for creating intuitive user experiences and a strong focus on practical, hands-on training, Angga empowers students and professionals to turn their ideas into fully functioning digital products.",
+      "image": "instructor-3.jpg"
+    }
+  },
+  {
+    "course_title": "Passive Income for Graphic Designers: Selling Presentation Templates on GraphicRiver by Envato",
+    "description": "Discover how to sell powerpoint templates on GraphicRiver from scratch! In this E-Course, you will be taught how to create a presentation template item from the basics until you can sell it on the graphicriver.net marketplace. GraphicRiver itself is a subsidiary of Envato Market, one of the largest design marketplaces in the world. Everything will be taught in this video, even if you are a layman. Starting from how to research products, how to find inspiration and brainstorm, mastering powerpoint from scratch, making presentation template items from start to finish, to also teaching how to convert from powerpoint to keynote and google slides. Not only that, in this video it is also shown how to upload items to the marketplace according to the standards that the marketplace wants, until I also videoed the moment when the eggs broke (getting the first dollar). Interesting isn't it? so what are you waiting for! let's join the class right now!",
+    "price": 0,
+    "discount": 0,
+    "category": "Graphic Design",
+    "sub-category": "Digital Illustration",
+    "rating": 4.9,
+    "student": 67556,
+    "duration": 32,
+    "level": "Intermediate",
+    "payment": "Free",
+    "image": "course-10.jpg",
+    "instructor": {
+      "name": "Angga Risky",
+      "bio": "Angga Risky is an experienced professional in the digital design and development field, specializing in UI/UX design, mobile app development, and digital product strategies. With a passion for creating intuitive user experiences and a strong focus on practical, hands-on training, Angga empowers students and professionals to turn their ideas into fully functioning digital products.",
+      "image": "instructor-3.jpg"
+    }
+  },
+  {
+    "course_title": "SwiftUI & iOS Engineer: The Complete App Development Bootcamp",
+    "description": "In the digital era, companies are competing to develop user-friendly and responsive websites and applications. Therefore, various jobs around design and development are very much needed today. If you love slicing UI into UI/UX Development, Junior UI/UX Developer or better known as UI Engineer will be the ideal profession for you. Through this class, you will play the role of UI Engineer to do slicing Food App design from Figma using Xcode application, development tools for iOS-based applications. Later, mentor Angga will not only provide guidance for slicing, but there will also be challenges for you to do your own slicing. But don't worry, at the end of the class you can match how you and the mentor do the slicing page.",
+    "price": 600000,
+    "discount": 400000,
+    "category": "Website Development",
+    "sub-category": "Front-End Development",
+    "rating": 4.8,
+    "student": 4354,
+    "duration": 24,
+    "level": "Beginner",
+    "payment": "Paid",
+    "image": "course-11.jpg",
+    "instructor": {
+      "name": "Angga Risky",
+      "bio": "Angga Risky is an experienced professional in the digital design and development field, specializing in UI/UX design, mobile app development, and digital product strategies. With a passion for creating intuitive user experiences and a strong focus on practical, hands-on training, Angga empowers students and professionals to turn their ideas into fully functioning digital products.",
+      "image": "instructor-3.jpg"
+    }
+  },
+  {
+    "course_title": "Full-Stack Website Development: Create a CBT Online Exam Project",
+    "description": "In this class we will learn together with experienced mentors in building a website with a case study of an online exam (computer based test) that can help teachers or managers in assessing the knowledge of each student and their employees. We will use the popular php framework, Laravel, to make the CBT website development process faster and easier to scale with other developers/programmers in the future. The project on this online course will be divided by two user roles namely teacher/manager and student/employee, we will limit some features so that they can only be accessed by each role (good for user experience).",
+    "price": 300000,
+    "discount": 200000,
+    "category": "Website Development",
+    "sub-category": "Back-End Development",
+    "rating": 4.9,
+    "student": 3454,
+    "duration": 14,
+    "level": "Intermediate",
+    "payment": "Paid",
+    "image": "course-12.jpg",
+    "instructor": {
+      "name": "Angga Risky",
+      "bio": "Angga Risky is an experienced professional in the digital design and development field, specializing in UI/UX design, mobile app development, and digital product strategies. With a passion for creating intuitive user experiences and a strong focus on practical, hands-on training, Angga empowers students and professionals to turn their ideas into fully functioning digital products.",
+      "image": "instructor-3.jpg"
+    }
+  },
+  {
+    "course_title": "Freelance Web Developer: Create a Digital Product Marketplace",
+    "description": "In the online class Freelance Web Developer: Create a Digital Product Marketplace, we will learn how to act as a freelance website developer using the popular PHP framework Laravel 10. We start the learning process from understanding the project brief, entity relationship diagram (ERD), user-flow, and other important preparations. The modern project that we will create together is a marketplace for content creators to sell their digital products to their followers. On our website project, users can register for an account as a content creator or buyer. Content creators can create new products, change them, and also delete them, Creators can also check what transactions they have and see proof of payment for transactions from buyers.",
+    "price": 100000,
+    "discount": 50000,
+    "category": "Website Development",
+    "sub-category": "Full Stack Development",
+    "rating": 5.0,
+    "student": 3456,
+    "duration": 6,
+    "level": "Expert",
+    "payment": "Paid",
+    "image": "course-13.jpg",
+    "instructor": {
+      "name": "Angga Risky",
+      "bio": "Angga Risky is an experienced professional in the digital design and development field, specializing in UI/UX design, mobile app development, and digital product strategies. With a passion for creating intuitive user experiences and a strong focus on practical, hands-on training, Angga empowers students and professionals to turn their ideas into fully functioning digital products.",
+      "image": "instructor-3.jpg"
+    }
+  },
+  {
+    "course_title": "Full-Stack Web Developer: Creative Agency Portfolio 2024",
+    "description": "Laravel is known as a backend (PHP) framework in building modern websites, but sometimes Laravel can also be used as a full-stack backend and frontend because it is so easy to integrate it into various frontend technologies such as Blade, Livewire, and others. In this latest online class we will learn together to use Laravel version 10 to build a creative portfolio website that can be used by freelance or agencies to promote their services. We start learning from understanding the user flow and ERD of the project then prepare for migration and continue to change the HTML template to Blade Engine. We will also install laravel breeze to help develop CMS admin features. The website pages built are home, project details, and booking. So, website visitors can see what skills and projects the freelancer has and if interested, they can request a meeting schedule.",
+    "price": 250000,
+    "discount": 100000,
+    "category": "Website Development",
+    "sub-category": "Web Performance Optimization",
+    "rating": 4.9,
+    "student": 45656,
+    "duration": 12,
+    "level": "Beginner",
+    "payment": "Paid",
+    "image": "course-14.jpg",
+    "instructor": {
+      "name": "Angga Risky",
+      "bio": "Angga Risky is an experienced professional in the digital design and development field, specializing in UI/UX design, mobile app development, and digital product strategies. With a passion for creating intuitive user experiences and a strong focus on practical, hands-on training, Angga empowers students and professionals to turn their ideas into fully functioning digital products.",
+      "image": "instructor-3.jpg"
+    }
+  },
+  {
+    "course_title": "ERD Essentials for Freelance Web Developers: Building Better Databases",
+    "description": "In the development of advanced information technology, the need for a system that can store, manage, and access data efficiently is becoming increasingly important. One of the key components in information system development is database design. A well-designed database not only improves system performance, but also makes it easier to manage data. In this context, the Entity-Relationship Diagram (ERD) plays a vital role as a design tool in database design. ERD helps developers to visualize the data structure and relationships between entities in the system. In this class, we will take an in-depth look at ERD and its application in a real-life project, an online eBook buying and selling system. This project was chosen because of its relevance to the current trend where many people are turning to digital media to read books. An eBook trading system requires an efficient database to store information about books, users, transactions, and other related aspects.",
+    "price": 600000,
+    "discount": 450000,
+    "category": "Website Development",
+    "sub-category": "Web Security",
+    "rating": 5.0,
+    "student": 4565,
+    "duration": 18,
+    "level": "Expert",
+    "payment": "Paid",
+    "image": "course-15.jpg",
+    "instructor": {
+      "name": "Angga Risky",
+      "bio": "Angga Risky is an experienced professional in the digital design and development field, specializing in UI/UX design, mobile app development, and digital product strategies. With a passion for creating intuitive user experiences and a strong focus on practical, hands-on training, Angga empowers students and professionals to turn their ideas into fully functioning digital products.",
+      "image": "instructor-3.jpg"
+    }
+  },
+  {
+    "course_title": "Full-Stack Flutter Android iOS Developer: Find Worker App",
+    "description": "In this class we will learn Full Stack Flutter Appwrite with a Coworking App case study. Using Flutter SDK Version 3.10.0 and Dart SDK 3.0.0. Appwrite used is the cloud version. Appwrite services used in this course include Authentication, Database, and Storage. Appwrite is BaaS (Backend as a Service) so that it can use Flutter code to access the database and other services (directly to the server). Appwrite also provides a local version and can be hosted custom. Appwrite can be used as an alternative if you don't want to use firebase. In this course, the design and assets are already provided so we just need to use them. However, students can prepare their own assets if they want to be different.",
+    "price": 200000,
+    "discount": 150000,
+    "category": "Mobile Development",
+    "sub-category": "iOS Development",
+    "rating": 4.6,
+    "student": 32445,
+    "duration": 23,
+    "level": "Beginner",
+    "payment": "Paid",
+    "image": "course-16.jpg",
+    "instructor": {
+      "name": "Angga Risky",
+      "bio": "Angga Risky is an experienced professional in the digital design and development field, specializing in UI/UX design, mobile app development, and digital product strategies. With a passion for creating intuitive user experiences and a strong focus on practical, hands-on training, Angga empowers students and professionals to turn their ideas into fully functioning digital products.",
+      "image": "instructor-3.jpg"
+    }
+  },
+  {
+    "course_title": "SQL for Beginners: Learn SQL using MySQL and Database Design",
+    "description": "Charles Bachman created the database so that data has an easy-to-understand appearance and can certainly be managed by many users. Data that is neatly organized through a Database Management System (DBMS), can facilitate our needs in application development. By mastering DBMS, we can easily search or change data as needed, process big data, and speed up application performance efficiently. In this class, Mentor will explain database management with MySQL. We will start with an introduction to the basics of databases (data, DBMS, SQL) and storage engines in DBMS. In MySQL software, we will build a “Flying” database starting from setting up tables, organizing fields and filling in data types. In addition, we also use TablePlus because the query language is more flexible and the database results are easily understood through a user-friendly display. This class uses the tools XAMPP, Beekeeper Studio, Dbeaver, Mamp, Table Plus and MySQL 5.7.",
+    "price": 250000,
+    "discount": 200000,
+    "category": "Mobile Development",
+    "sub-category": "Android Development",
+    "rating": 4.8,
+    "student": 8675,
+    "duration": 20,
+    "level": "Intermediate",
+    "payment": "Paid",
+    "image": "course-17.jpg",
+    "instructor": {
+      "name": "Angga Risky",
+      "bio": "Angga Risky is an experienced professional in the digital design and development field, specializing in UI/UX design, mobile app development, and digital product strategies. With a passion for creating intuitive user experiences and a strong focus on practical, hands-on training, Angga empowers students and professionals to turn their ideas into fully functioning digital products.",
+      "image": "instructor-3.jpg"
+    }
+  },
+  {
+    "course_title": "Envato Mastery: Build a Passive Income from Selling Template",
+    "description": "WordPress & Elementor membantu ui ux designer, web developer, small business owner, dan orang lainnya dalam membangun website tampilan menarik serta kaya akan fitur-fitur canggih tanpa harus menggunakan skills koding.\n\nSebagai freelancer atau web developer kita dapat menghasilkan uang dalam mengerjakan projek freelance website, namun sebenarnya bukan hanya jual jasa kita saja, akan tetap kita juga bisa memulai dalam membangun passive income.\n\nPassive income di sini maksudnya adalah kita dapat memulai untuk membuat beberapa premium Elementor template lalu setelah itu kita akan jual template tersebut di tempat jual beli template yang sangat popular yaitu adalah Envato.",
+    "price": 350000,
+    "discount": 300000,
+    "category": "Mobile Development",
+    "sub-category": "Cross Platform Development",
+    "rating": 4.9,
+    "student": 7564,
+    "duration": 25,
+    "level": "Expert",
+    "payment": "Paid",
+    "image": "course-18.jpg",
+    "instructor": {
+      "name": "Angga Risky",
+      "bio": "Angga Risky is an experienced professional in the digital design and development field, specializing in UI/UX design, mobile app development, and digital product strategies. With a passion for creating intuitive user experiences and a strong focus on practical, hands-on training, Angga empowers students and professionals to turn their ideas into fully functioning digital products.",
+      "image": "instructor-3.jpg"
+    }
+  },
+  {
+    "course_title": "Laravel 11, Service Repository, Filament: Web Event and Workshop Ticket",
+    "description": "WordPress & Elementor membantu ui ux designer, web developer, small business owner, dan orang lainnya dalam membangun website tampilan menarik serta kaya akan fitur-fitur canggih tanpa harus menggunakan skills koding.\n\nSebagai freelancer atau web developer kita dapat menghasilkan uang dalam mengerjakan projek freelance website, namun sebenarnya bukan hanya jual jasa kita saja, akan tetap kita juga bisa memulai dalam membangun passive income.\n\nPassive income di sini maksudnya adalah kita dapat memulai untuk membuat beberapa premium Elementor template lalu setelah itu kita akan jual template tersebut di tempat jual beli template yang sangat popular yaitu adalah Envato.",
+    "price": 450000,
+    "discount": 400000,
+    "category": "Mobile Development",
+    "sub-category": "Mobile App UI/UX",
+    "rating": 5.0,
+    "student": 8654,
+    "duration": 18,
+    "level": "Beginner",
+    "payment": "Paid",
+    "image": "course-19.jpg",
+    "instructor": {
+      "name": "Angga Risky",
+      "bio": "Angga Risky is an experienced professional in the digital design and development field, specializing in UI/UX design, mobile app development, and digital product strategies. With a passion for creating intuitive user experiences and a strong focus on practical, hands-on training, Angga empowers students and professionals to turn their ideas into fully functioning digital products.",
+      "image": "instructor-3.jpg"
+    }
+  },
+  {
+    "course_title": "UI/UX Design Patterns and Best Practices (Website/Apps)",
+    "description": "In improving the online business owned by the company, our main task as UI/UX designers needs to design a website or application that is not only attractive but also provides a good experience for users. In this UI/UX design patterns class, we will get to know from the beginning what are the laws in the UX world that we can use as a benchmark in designing so that it can provide good results for users and companies. This class will answer your questions, beginner designers, regarding why several large companies have website or application designs that are almost similar, this is because most designers use Jakob's Law, we will discuss this law more deeply in the UI/UX design patterns class with mentor Angga.",
+    "price": 150000,
+    "discount": 100000,
+    "category": "Mobile Development",
+    "sub-category": "Mobile Testing & Debugging",
+    "rating": 4.6,
+    "student": 7545,
+    "duration": 20,
+    "level": "Intermediate",
+    "payment": "Paid",
+    "image": "course-20.jpg",
+    "instructor": {
+      "name": "Angga Risky",
+      "bio": "Angga Risky is an experienced professional in the digital design and development field, specializing in UI/UX design, mobile app development, and digital product strategies. With a passion for creating intuitive user experiences and a strong focus on practical, hands-on training, Angga empowers students and professionals to turn their ideas into fully functioning digital products.",
+      "image": "instructor-3.jpg"
+    }
+  },
+  {
+    "course_title": "JavaScript Data Structure: Improve E-Commerce Website",
+    "description": "JavaScript is a programming language that we can use as a website developer to build a website that is more interactive and also has dynamic content. This time we will deepen the Data Structure using JavaScript to improve the quality of experience on the online store website (e-commerce). This class uses the NodeJS version 14 tool.",
+    "price": 250000,
+    "discount": 200000,
+    "category": "Data Analyst",
+    "sub-category": "Data Visualization",
+    "rating": 4.7,
+    "student": 76574,
+    "duration": 25,
+    "level": "Expert",
+    "payment": "Paid",
+    "image": "course-21.jpg",
+    "instructor": {
+      "name": "Riza Fahmi",
+      "bio": "Riza Fahmi is a seasoned educator and technology enthusiast with a focus on web development and programming. With years of experience in the tech industry, Riza is dedicated to mentoring aspiring developers, helping them master the skills needed to succeed in today’s fast-evolving digital landscape. His approach combines practical knowledge with real-world applications, making complex concepts easy to understand for learners at all levels.",
+      "image": "instructor-5.jpg"
+    }
+  },
+  {
+    "course_title": "Data Scientist for Beginners: Linear Regression Analysis",
+    "description": "Data is one of the important assets in a company. The data collected can show information on the needs and desires of the company's business targets. From the results of this data, information can be drawn as a decision-making step in determining further business strategies. Data analysis skills are one skill that is sought after by large companies and startups. Together with mentor Rizqillah Zahra, we will learn about prediction models with linear regression. This class is very suitable if we want to have a career as a Data Scientist by using Google Collaboratory, so that later the knowledge we learn is more up to date and suitable for today's industry needs.",
+    "price": 300000,
+    "discount": 200000,
+    "category": "Data Analyst",
+    "sub-category": "Excel & Spreadsheet Analysis",
+    "rating": 4.8,
+    "student": 2343,
+    "duration": 5,
+    "level": "Beginner",
+    "payment": "Paid",
+    "image": "course-22.jpg",
+    "instructor": {
+      "name": "Riza Fahmi",
+      "bio": "Riza Fahmi is a seasoned educator and technology enthusiast with a focus on web development and programming. With years of experience in the tech industry, Riza is dedicated to mentoring aspiring developers, helping them master the skills needed to succeed in today’s fast-evolving digital landscape. His approach combines practical knowledge with real-world applications, making complex concepts easy to understand for learners at all levels.",
+      "image": "instructor-5.jpg"
+    }
+  },
+  {
+    "course_title": "Data Analysis: Sales Report Analysis with Sheets",
+    "description": "In developing a digital startup, data analysis is one of the crucial things that need to be considered. Data analysis can be a reference for startups in the process of processing raw data into understandable data. Where from the results of the data can be drawn information conclusions or as a decision-making step in determining further business strategies. Mentor Kintan will direct us to learn to understand how to analyze the sales database as well as create sales reports properly and neatly. We will also learn to use the pivot table function and data visualization with graphs using Spreadsheet. This class is perfect for those of us who want to prepare for a career as a Data Analyst by using a techstack supporting Spreadsheet that is easy for beginners to use, so that later the knowledge we learn is more up to date and suitable for today's industry needs.",
+    "price": 200000,
+    "discount": 100000,
+    "category": "Data Analyst",
+    "sub-category": "Statistical Analysis",
+    "rating": 4.9,
+    "student": 2343,
+    "duration": 9,
+    "level": "Intermediate",
+    "payment": "Paid",
+    "image": "course-23.jpg",
+    "instructor": {
+      "name": "Riza Fahmi",
+      "bio": "Riza Fahmi is a seasoned educator and technology enthusiast with a focus on web development and programming. With years of experience in the tech industry, Riza is dedicated to mentoring aspiring developers, helping them master the skills needed to succeed in today’s fast-evolving digital landscape. His approach combines practical knowledge with real-world applications, making complex concepts easy to understand for learners at all levels.",
+      "image": "instructor-5.jpg"
+    }
+  },
+  {
+    "course_title": "Learn Data Analysis For Beginners with Excel",
+    "description": "In today's digital era, Data Analyst is one of the most popular professions and is in demand by many companies. Data Analyst has an important responsibility for a company, where Data Analyst must be able to analyze and determine the company's further business strategy as well as be able to visualize a data report so that it is easy to understand. Together with our mentor Angga*,* we will learn about Data Analyst from the basics starting from understanding Data Analysis, making company financial reports to making data visualization presentations. This class is very suitable if we want to have a career as a Data Analyst using Microsoft Excel software, so that later the knowledge we learn is more up to date and suitable for today's industry needs.",
+    "price": 250000,
+    "discount": 200000,
+    "category": "Data Analyst",
+    "sub-category": "SQL for Data Analysis",
+    "rating": 5.0,
+    "student": 8566,
+    "duration": 12,
+    "level": "Expert",
+    "payment": "Paid",
+    "image": "course-24.jpg",
+    "instructor": {
+      "name": "Riza Fahmi",
+      "bio": "Riza Fahmi is a seasoned educator and technology enthusiast with a focus on web development and programming. With years of experience in the tech industry, Riza is dedicated to mentoring aspiring developers, helping them master the skills needed to succeed in today’s fast-evolving digital landscape. His approach combines practical knowledge with real-world applications, making complex concepts easy to understand for learners at all levels.",
+      "image": "instructor-5.jpg"
+    }
+  },
+  {
+    "course_title": "Learn Data Science with Python Pandas",
+    "description": "Pandas is a module in Python programming that facilitates our work in data science and machine learning. This video learning series discusses tips and tricks that can increase our effectiveness and efficiency while working with Python Pandas. We hope you enjoy the discussion in this video and happy Pythoning.",
+    "price": 300000,
+    "discount": 200000,
+    "category": "Data Analyst",
+    "sub-category": "Power BI / Tableau",
+    "rating": 4.6,
+    "student": 2354,
+    "duration": 18,
+    "level": "Beginner",
+    "payment": "Paid",
+    "image": "course-25.jpg",
+    "instructor": {
+      "name": "Riza Fahmi",
+      "bio": "Riza Fahmi is a seasoned educator and technology enthusiast with a focus on web development and programming. With years of experience in the tech industry, Riza is dedicated to mentoring aspiring developers, helping them master the skills needed to succeed in today’s fast-evolving digital landscape. His approach combines practical knowledge with real-world applications, making complex concepts easy to understand for learners at all levels.",
+      "image": "instructor-5.jpg"
+    }
+  },
+  {
+    "course_title": "Complete Figma Megacourse: UI UX Website Design Digital Village",
+    "description": "As a UI UX designer, we need to find solutions to help people in their lives (become easier) in their daily lives. In this online class, we will learn UI UX design material using Figma and Whimsical software to design a digital village management website project. The digital village has many features that help the village head to manage financial data, sales, village members, village events, and so on. This online class can be studied at any time because it can be accessed forever to learn UI UX design while building a portfolio as a capital to work as a freelancer or full-time ui ux designer later. We will also learn about how to create a high-fidelity prototype using Figma software which will later be used as material for conducting usability-testing processes with potential users of digital village website projects.",
+    "price": 200000,
+    "discount": 175000,
+    "category": "Data Scientist",
+    "sub-category": "Machine Learning",
+    "rating": 4.7,
+    "student": 65756,
+    "duration": 25,
+    "level": "Expert",
+    "payment": "Paid",
+    "image": "course-26.jpg",
+    "instructor": {
+      "name": "Angga Risky",
+      "bio": "Angga Risky is an experienced professional in the digital design and development field, specializing in UI/UX design, mobile app development, and digital product strategies. With a passion for creating intuitive user experiences and a strong focus on practical, hands-on training, Angga empowers students and professionals to turn their ideas into fully functioning digital products.",
+      "image": "instructor-3.jpg"
+    }
+  },
+  {
+    "course_title": "Laravel 11, Filament, Service Repository Pattern: Web Shoes",
+    "description": "Welcome to this online coding class designed specifically for those of you who want to master backend development with Laravel 11. In this class, you will learn how to build a powerful content management system using FilamentPHP, a highly efficient tool for creating admin panels in Laravel. This class will introduce you to key technologies such as Laravel 11, a modern PHP framework that makes it easy to develop web applications quickly and efficiently. You will also learn to use MySQL 8, a powerful relational database to store and manage your application data, and PHP 8, the latest version of PHP that offers performance improvements and new features. ",
+    "price": 350000,
+    "discount": 225000,
+    "category": "Data Scientist",
+    "sub-category": "Deep Learning",
+    "rating": 4.8,
+    "student": 3454,
+    "duration": 32,
+    "level": "Beginner",
+    "payment": "Paid",
+    "image": "course-27.jpg",
+    "instructor": {
+      "name": "Angga Risky",
+      "bio": "Angga Risky is an experienced professional in the digital design and development field, specializing in UI/UX design, mobile app development, and digital product strategies. With a passion for creating intuitive user experiences and a strong focus on practical, hands-on training, Angga empowers students and professionals to turn their ideas into fully functioning digital products.",
+      "image": "instructor-3.jpg"
+    }
+  },
+  {
+    "course_title": "Full-Stack Laravel 11, React, TypeScript: Website Rent Office",
+    "description": "This Full-Stack Laravel React JS 2024 class teaches how to build a modern website for office search and booking using the latest technologies such as Laravel 11, React JS 18, FilamentPHP, and TypeScript. Participants will learn how to create office search, office booking, manual payment, and notification via SMS and WhatsApp. In addition, this class will also guide you to create a Content Management System (CMS) dashboard that manages transaction data, offices, cities, and more with a MySQL database. In a short time, participants will be taught how to create a super admin CMS dashboard in just 10 minutes using FilamentPHP.",
+    "price": 150000,
+    "discount": 120000,
+    "category": "Data Scientist",
+    "sub-category": "Natural Language Processing",
+    "rating": 4.9,
+    "student": 8765,
+    "duration": 13,
+    "level": "Intermediate",
+    "payment": "Paid",
+    "image": "course-28.jpg",
+    "instructor": {
+      "name": "Angga Risky",
+      "bio": "Angga Risky is an experienced professional in the digital design and development field, specializing in UI/UX design, mobile app development, and digital product strategies. With a passion for creating intuitive user experiences and a strong focus on practical, hands-on training, Angga empowers students and professionals to turn their ideas into fully functioning digital products.",
+      "image": "instructor-3.jpg"
+    }
+  },
+  {
+    "course_title": "Laravel 11, Filament, Service Repository Pattern: Web Tickets",
+    "description": "This web development class is specially designed for beginners who want to learn how to create an online tourist ticket selling website using PHP, JavaScript, Laravel 11, and Filament PHP. In this class, you will learn to create projects starting from understanding the project brief, creating a database ERD, to implementing important features such as super admin accounts, content management systems, ticket booking, ticket categories, ticket details, and transaction payments. One of the advantages of this class is the creation of a super admin dashboard that only takes 10 minutes using Filament PHP, unlike the conventional way that can take up to 10 hours. The learning process starts from creating the latest Laravel 11 project, installing Filament PHP, creating resources and CRUD features for all data on the admin dashboard page, and integrating Laravel Blade with the controller. ",
+    "price": 200000,
+    "discount": 150000,
+    "category": "Data Scientist",
+    "sub-category": "Data Mining & Wrangling",
+    "rating": 5.0,
+    "student": 5465,
+    "duration": 19,
+    "level": "Expert",
+    "payment": "Paid",
+    "image": "course-29.jpg",
+    "instructor": {
+      "name": "Angga Risky",
+      "bio": "Angga Risky is an experienced professional in the digital design and development field, specializing in UI/UX design, mobile app development, and digital product strategies. With a passion for creating intuitive user experiences and a strong focus on practical, hands-on training, Angga empowers students and professionals to turn their ideas into fully functioning digital products.",
+      "image": "instructor-3.jpg"
+    }
+  },
+  {
+    "course_title": "Full-Stack Laravel 11 Next JS: Wedding Package Web Design",
+    "description": "This premium class offers in-depth learning for those who want to master full stack development using Laravel 11 and Next.js. In this class, you will be taught how to build a wedding package provider website with the latest technologies such as Laravel 11, PHP 8, FilamentPHP, and Next.js. This class also covers the use of VS Code as an editor, environment setup with MAMP/XAMPP, and database management using MySQL and phpMyAdmin. You'll get high-quality HTML templates and UI/UX designs for free to ensure your project looks professional. On the backend, you will learn to create a content management system that includes data on wedding packages, wedding organizers, and cities. You will also understand how to design a database according to ERD, create relationships between tables, and create and test RESTful APIs using Postman. The creation of wedding city, wedding organizer, and wedding bonus package features are also part of this curriculum.",
+    "price": 250000,
+    "discount": 200000,
+    "category": "Data Scientist",
+    "sub-category": "Python for Data Science",
+    "rating": 4.6,
+    "student": 8764,
+    "duration": 23,
+    "level": "Beginner",
+    "payment": "Paid",
+    "image": "course-30.jpg",
+    "instructor": {
+      "name": "Angga Risky",
+      "bio": "Angga Risky is an experienced professional in the digital design and development field, specializing in UI/UX design, mobile app development, and digital product strategies. With a passion for creating intuitive user experiences and a strong focus on practical, hands-on training, Angga empowers students and professionals to turn their ideas into fully functioning digital products.",
+      "image": "instructor-3.jpg"
+    }
+  },
+  {
+    "course_title": "Blender Mastery: Build Passive Income from Selling 3D Icons",
+    "description": "Being able to earn an income just from home is the dream of many people. And one of the ways is by selling digital assets through online marketplaces, one of which is quite popular among designers today is Iconscout. Iconscout is a marketplace that offers a variety of digital resources that are very useful for designers, both UI/UX designers and other graphic designers. There are approximately 7.7 million quality resources consisting of Icon vector, Illustration vector, Lottie animation, and also 3D Illustration. With the many resources provided by Iconscout, it also goes hand in hand with the number of visitors in this marketplace. And this can be our opportunity to earn income by being part of it, namely as a seller or contributor at Iconscout. Where we can get various benefits from selling digital assets there. But unfortunately there are still many who do not understand what steps we have to take to become a contributor to iconscout.",
+    "price": 150000,
+    "discount": 105000,
+    "category": "Digital Marketer",
+    "sub-category": "Search Engine Optimization",
+    "rating": 4.8,
+    "student": 8566,
+    "duration": 15,
+    "level": "Intermediate",
+    "payment": "Paid",
+    "image": "course-31.jpg",
+    "instructor": {
+      "name": "Fini Charisa",
+      "bio": "Fini Charisa is an experienced instructor with expertise in digital education and skill development. Her teaching focuses on delivering comprehensive, hands-on learning experiences in areas such as UI/UX design, mobile app development, and data analysis. With a passion for empowering students to master in-demand skills, Fini's courses are designed to help learners succeed in competitive job markets. She is dedicated to fostering growth through interactive and practical learning methods that ensure a deep understanding of complex topics.",
+      "image": "instructor-1.jpg"
+    }
+  },
+  {
+    "course_title": "Full-Stack Web Developer: Build Website Freelancer",
+    "description": "Nowadays, the development of technology is very rapid, and some of us must be familiar with the phrase “the world is in our hands” due to the fact that we can obtain any information in the blink of an eye digitally. Through the sophistication of the internet, the reach of the audience becomes wider so that many entrepreneurs take advantage such as opening a marketplace to provide services for freelancers. This class is suitable for those of you who want to create a complex website like Upwork or Fiverr. Together with our expert mentors, you will build a “Serv” site to support freelancers to showcase projects until they succeed in getting clients. Laravel 8 will be used as the framework because development is fast and the website is scalable.",
+    "price": 200000,
+    "discount": 175000,
+    "category": "Digital Marketer",
+    "sub-category": "Social Media Marketing",
+    "rating": 4.9,
+    "student": 2345,
+    "duration": 19,
+    "level": "Expert",
+    "payment": "Paid",
+    "image": "course-32.jpg",
+    "instructor": {
+      "name": "Fini Charisa",
+      "bio": "Fini Charisa is an experienced instructor with expertise in digital education and skill development. Her teaching focuses on delivering comprehensive, hands-on learning experiences in areas such as UI/UX design, mobile app development, and data analysis. With a passion for empowering students to master in-demand skills, Fini's courses are designed to help learners succeed in competitive job markets. She is dedicated to fostering growth through interactive and practical learning methods that ensure a deep understanding of complex topics.",
+      "image": "instructor-1.jpg"
+    }
+  },
+  {
+    "course_title": "Full-Stack Web Developer: Selling Event Tickets (Hosting Bonus)",
+    "description": "In this digital era, website developer jobs are in high demand because many companies and the general public need website developer services to help promote their services or products through website media. With the direction of Mentor Galih Pratama, we will be guided in building an event ticket selling application as the final project in this class where we will also focus on building important features that support projects such as online event ticket messages. In addition, in this class we will also learn how to deploy using hosting services from Niagahoster. Of course, for friends who take this class, will get access to free hosting and domain for 1 year, exclusive for members who take this class.",
+    "price": 250000,
+    "discount": 205000,
+    "category": "Digital Marketer",
+    "sub-category": "Content Marketing",
+    "rating": 5.0,
+    "student": 5664,
+    "duration": 24,
+    "level": "Beginner",
+    "payment": "Paid",
+    "image": "course-33.jpg",
+    "instructor": {
+      "name": "Fini Charisa",
+      "bio": "Fini Charisa is an experienced instructor with expertise in digital education and skill development. Her teaching focuses on delivering comprehensive, hands-on learning experiences in areas such as UI/UX design, mobile app development, and data analysis. With a passion for empowering students to master in-demand skills, Fini's courses are designed to help learners succeed in competitive job markets. She is dedicated to fostering growth through interactive and practical learning methods that ensure a deep understanding of complex topics.",
+      "image": "instructor-1.jpg"
+    }
+  }
+]

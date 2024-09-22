@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main Page | Skillio</title>
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/custom-keyframe.css">
+    <link rel="stylesheet" href="css/component.css">
+    <link rel="stylesheet" href="css/component/navbar.css">
+    <link rel="stylesheet" href="css/custom-framework.css">
+    <link rel="stylesheet" href="css/page/main.css">
+    <link rel="stylesheet" href="css/component/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- END STYLE CSS -->
+
+    <!-- FAVICON MATIC -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="assets/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="assets/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+    <!-- END FAVICON MATIC -->
+</head>
+<body>
+    <!-- MAIN PAGE -->
+    <div class="loader-page">
+        <div class="spinner"></div>
+    </div>
+    <main class="main-page hidden main">
+        <nav class="navbar d-flex flex-column">
+            <div class="navbar-link d-flex justify-content-center" style="width: 100%;">
+                <div class="container d-flex justify-content-between align-items-center">
+                    <div class="wrapper d-flex align-items-center">
+                        <a href="index.html" class="link-brand">
+                            <img src="assets/brands/brand-text-secondary.svg" alt="Brand Text" width="86" class="brand-text">
+                            <span class="brand-image"></span>
+                        </a>
+                        <div class="link-item d-flex align-items-center">
+                            <button class="button-category">Categories</button>
+                            <a href="index.html" class="active">Home</a>
+                            <a href="about.html">About</a>
+                            <a href="course.html">Course</a>
+                            <div class="popup d-flex">
+                                <div class="category-list hidden d-flex flex-column">
+                                </div>
+                                <div class="sub-category-list hidden d-flex flex-column">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="link-profile d-flex align-items-center">
+                        <a href="wishlist.html" class="profile-wrapper d-flex align-items-center justify-content-center">
+                            <img src="assets/icons/like-outline-light.svg" alt="Like Icon" width="18" class="like-icon">
+                        </a>
+                        <a href="cart.html" class="profile-wrapper d-flex align-items-center justify-content-center">
+                            <img src="assets/icons/cart-outline-light.svg" alt="Cart Icon" width="20" class="cart-icon">
+                        </a>
+                        <a href="profile.html" class="profile-wrapper d-flex align-items-center justify-content-center">
+                            <span class="profile-name">Aditya Prayatna</span>
+                            <img src="assets/profile/profile-image.svg" alt="Profile Image" class="profile-image">
+                        </a>
+                        <button class="profile-wrapper d-flex align-items-center justify-content-center hamburger">
+                            <span class="hamburger-icon"></span>
+                            <img src="assets/icons/hamburger-light.svg" alt="Hamburger Icon" width="19" class="hamburger-icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-category d-flex justify-content-center align-items-center">
+                <div class="container d-flex justify-content-center align-items-center"></div>
+            </div>
+        </nav>
+        <div class="navbar-mobile hidden d-flex flex-column align-items-center justify-content-center">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="course.html">Course</a>
+            <a href="profile.html">Profile</a>
+        </div>
+        <section class="hero d-flex align-items-center" id="hero">
+            <div class="container d-flex align-items-end justify-content-between">
+                <img src="assets/components/component-doughnut.svg" alt="Component Doughnut" width="150" class="component-doughnut">
+                <img src="assets/components/component-buble.svg" alt="Component Buble" width="980" class="component-buble">
+                <div class="hero-content d-flex align-items-center">
+                    <div class="wrapper">
+                        <h1 class="headline">Become <img src="assets/icons/arrow-right-long-toska.svg" alt="Arrow Right Toska" width="82">
+                            <br>A Professional
+                            <br>In Either Field.</h1>
+                        <p class="description">Unlock your potential with Skillio and gain the skills you need to thrive in your chosen field. Whether you're diving into tech, business, or creative industries, our tailored courses will empower you to become an expert.</p>
+                        <div class="button-group d-flex align-items-center">
+                            <a href="#benefit" class="button-dark">
+                                <span>Start Your Journey</span>
+                            </a>
+                            <a href="course.html" class="button-secondary">
+                                <span>Explore Courses</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-banner">
+                    <img src="assets/banners/main-section-hero.svg" alt="Banner Section Hero">
+                </div>
+            </div>
+        </section>
+        <div class="main-wrapper">
+            <section class="partner" id="partner">
+                <div class="container d-flex align-items-center">
+                    <div class="partner-primary d-flex align-items-center">
+                        <img src="assets/partners/google.svg" alt="Google Icon" width="129">
+                        <img src="assets/partners/bangkit.svg" alt="Bangkit Icon" width="149">
+                        <img src="assets/partners/microsoft.svg" alt="Microsoft Icon" width="149">
+                        <img src="assets/partners/samsung.svg" alt="Samsung Icon" width="149">
+                        <img src="assets/partners/alcatel-lucent-enterprise.svg" alt="Alcatel Lucent Enterprise Icon" width="148">
+                        <img src="assets/partners/lenovo.svg" alt="Lenovo Icon" width="132">
+                        <img src="assets/partners/ericsson.svg" alt="Ericsson Icon" width="180">
+                    </div>
+                    <div class="partner-secondary d-flex align-items-center">
+                        <img src="assets/partners/google.svg" alt="Google Icon" width="129">
+                        <img src="assets/partners/bangkit.svg" alt="Bangkit Icon" width="149">
+                        <img src="assets/partners/microsoft.svg" alt="Microsoft Icon" width="149">
+                        <img src="assets/partners/samsung.svg" alt="Samsung Icon" width="149">
+                        <img src="assets/partners/alcatel-lucent-enterprise.svg" alt="Alcatel Lucent Enterprise Icon" width="148">
+                        <img src="assets/partners/lenovo.svg" alt="Lenovo Icon" width="132">
+                        <img src="assets/partners/ericsson.svg" alt="Ericsson Icon" width="180">
+                    </div>
+                </div>
+            </section>
+            <section class="benefit section-gap" id="benefit">
+                <div class="container d-flex flex-column">
+                    <div class="section-header d-flex justify-content-between align-items-end">
+                        <div class="header-left">
+                            <h6 class="subtitle">Benefit</h6>
+                            <h3 class="title">Benefits of Learning with Skillio</h3>
+                        </div>
+                        <div class="header-right">
+                            <p class="description">At Skillio, we prioritize your success by offering a learning experience that adapts to your pace and career goals.</p>
+                        </div>
+                    </div>
+                    <div class="section-content content-gap">
+                        <div class="content-benefit">
+                            <div class="benefit-icon d-flex align-items-center justify-content-center">
+                                <img src="assets/benefits/benefit-1.svg" alt="Benefit Icon" width="22">
+                            </div>
+                            <h6 class="benefit-title">Flexible Learning</h6>
+                            <p class="benefit-description clamp-3">Learn at your own pace with courses designed to fit your schedule, whether you're a beginner or an experienced professional.</p>
+                        </div>
+                        <div class="content-benefit">
+                            <div class="benefit-icon d-flex align-items-center justify-content-center">
+                                <img src="assets/benefits/benefit-2.svg" alt="Benefit Icon" width="22">
+                            </div>
+                            <h6 class="benefit-title">Expert Mentor</h6>
+                            <p class="benefit-description clamp-3">Gain insights and guidance from industry leaders who are committed to helping you achieve your excellent career goals.</p>
+                        </div>
+                        <div class="content-benefit">
+                            <div class="benefit-icon d-flex align-items-center justify-content-center">
+                                <img src="assets/benefits/benefit-3.svg" alt="Benefit Icon" width="22">
+                            </div>
+                            <h6 class="benefit-title">Real-World Projects</h6>
+                            <p class="benefit-description clamp-3">Apply your skills through hands-on projects that mirror real-world challenges, giving you the practical experience employers seek.</p>
+                        </div>
+                        <div class="content-benefit">
+                            <div class="benefit-icon d-flex align-items-center justify-content-center">
+                                <img src="assets/benefits/benefit-4.svg" alt="Benefit Icon" width="22">
+                            </div>
+                            <h6 class="benefit-title">Career Growth Opportunities</h6>
+                            <p class="benefit-description clamp-3">Unlock new career paths with access to job placement assistance, certification programs, and networking opportunities within your field.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="why-choose-us section-gap" id="whyChooseUs">
+                <div class="container d-flex justify-content-between align-items-center">
+                    <div class="section-banner">
+                        <img src="assets/banners/main-section-why-choose-us.svg" alt="Banner Section" style="width: 100%;">
+                    </div>
+                    <div class="section-content">
+                        <h6 class="subtitle">Why Choose Us</h6>
+                        <h3 class="title">Why Skillio is Your Best Choice</h3>
+                        <p class="description">At Skillio, we go beyond just delivering courses. We are dedicated to providing a transformative learning experience that helps you excel in your career. Whether you're aiming to upskill, reskill, or dive into a new field, Skillio ensures you receive the highest quality education with real-world impact.</p>
+                        <div class="content-list">
+                            <div class="list-item d-flex flex-column">
+                                <div class="item d-flex align-items-center">
+                                    <img src="assets/icons/checklist-primary.svg" alt="Checklist Icon" width="22">
+                                    <p>Tailored Learning Paths</p>
+                                </div>
+                                <div class="item d-flex align-items-center">
+                                    <img src="assets/icons/checklist-primary.svg" alt="Checklist Icon" width="22">
+                                    <p>Top-Tier Instructors</p>
+                                </div>
+                                <div class="item d-flex align-items-center">
+                                    <img src="assets/icons/checklist-primary.svg" alt="Checklist Icon" width="22">
+                                    <p>Interactive Community</p>
+                                </div>
+                            </div>
+                            <div class="list-item d-flex flex-column">
+                                <div class="item d-flex align-items-center">
+                                    <img src="assets/icons/checklist-primary.svg" alt="Checklist Icon" width="22">
+                                    <p>Comprehensive Support</p>
+                                </div>
+                                <div class="item d-flex align-items-center">
+                                    <img src="assets/icons/checklist-primary.svg" alt="Checklist Icon" width="22">
+                                    <p>Real-World Skills</p>
+                                </div>
+                                <div class="item d-flex align-items-center">
+                                    <img src="assets/icons/checklist-primary.svg" alt="Checklist Icon" width="22">
+                                    <p>Certifications That Matter</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#about" class="button-primary d-flex align-items-center">
+                            <span>Discover Why Skillio</span>
+                            <img src="assets/icons/arrow-right-long-light.svg" alt="Arrow Right Light">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="course section-gap" id="course">
+                <div class="container d-flex flex-column align-items-center">
+                    <div class="section-header d-flex justify-content-between align-items-end">
+                        <div class="header-left">
+                            <h6 class="subtitle">Popular Course</h6>
+                            <h3 class="title">Explore Our Popular Courses</h3>
+                        </div>
+                        <div class="header-right">
+                            <p class="description">Skillio offers a wide range of courses designed to help you excel in your chosen field. From programming and data science to design and business management.</p>
+                        </div>
+                    </div>
+                    <div class="section-content content-gap"></div>
+                    <a href="course.html" class="button-primary content-gap" style="width: fit-content !important;">
+                        <span>Explore Course on Skillio</span>
+                    </a>
+                </div>
+            </section>
+            <section class="about section-gap" id="about">
+                <div class="container d-flex justify-content-between align-items-center">
+                    <div class="section-content">
+                        <h6 class="subtitle">About Us</h6>
+                        <h3 class="title">About Skillio: Empowering Your Growth</h3>
+                        <p class="description">At Skillio, we are dedicated to equipping individuals with the skills needed to thrive in the modern world. Our mission is to make high-quality education accessible to everyone, empowering learners to build successful careers through innovative and flexible learning experiences. With expert guidance and real-world applications, Skillio is where talent meets opportunity.</p>
+                        <div class="button-group">
+                            <a href="about.html" class="button-primary" style="width: fit-content !important;">
+                                <span>Learn More About Us</span>
+                            </a>
+                            <a href="index.html" class="button-secondary reverse">
+                                <span>Join Our Community</span>
+                            </a>
+                        </div>
+                        <div class="content-value">
+                            <div class="value d-flex flex-column align-items-center">
+                                <h2 id="valueCategory" data-target="7">0</h2>
+                                <p>Total Category</p>
+                            </div>
+                            <div class="value d-flex flex-column align-items-center">
+                                <h2 id="valueStudent" data-target="3420">0</h2>
+                                <p>Total Student</p>
+                            </div>
+                            <div class="value d-flex flex-column align-items-center">
+                                <h2 id="valueInstructor" data-target="62">0</h2>
+                                <p>Total Instructor</p>
+                            </div>
+                            <div class="value d-flex flex-column align-items-center">
+                                <h2 id="valuePartnership" data-target="20">0</h2>
+                                <p>Total Partnership</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-banner">
+                        <img src="assets/banners/main-section-about.svg" alt="Banner Section" style="width: 100%;">
+                    </div>
+                </div>
+            </section>
+            <section class="testimonial section-gap" id="testimonial">
+                <div class="container d-flex flex-column align-items-center">
+                    <div class="section-header d-flex justify-content-between align-items-end">
+                        <div class="header-left">
+                            <h6 class="subtitle">Testimonial</h6>
+                            <h3 class="title">Hear From Our Student Instead</h3>
+                        </div>
+                        <div class="header-right">
+                            <p class="description">At Skillio, our learners' success speaks for itself. Hear from professionals who have transformed their careers through our tailored courses.</p>
+                        </div>
+                    </div>
+                    <div class="section-content content-gap">
+                        <div class="wrapper-testimonial d-flex justify-content-center align-items-end">
+                            <button type="button" class="button-primary" style="width: fit-content !important;">
+                                <span>View More Testimonial</span>
+                            </button>
+                        </div>
+                        <div class="content-testimonial d-flex flex-column justify-content-between">
+                            <div class="wrapper">
+                                <div class="testimonial-rating d-flex align-items-center">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <p>(4.7)</p>
+                                </div>
+                                <p class="testimonial-message">“Learn at your own pace with courses designed to fit your schedule, whether you're a beginner or an experienced professional.”</p>
+                            </div>
+                            <div class="testimonial-profile d-flex align-items-center">
+                                <img src="assets/testimonials/testimonial-1.jpg" alt="Testimonial Image" width="46">
+                                <div class="profile-data d-flex flex-column">
+                                    <h6>Andi Wijaya</h6>
+                                    <p>Data Analyst</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-testimonial d-flex flex-column justify-content-between">
+                            <div class="wrapper">
+                                <div class="testimonial-rating d-flex align-items-center">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <p>(4.9)</p>
+                                </div>
+                                <p class="testimonial-message">“Skillio gave me the confidence to dive deep into data science. The hands-on projects and industry relevant curriculum helped me land my dream.”</p>
+                            </div>
+                            <div class="testimonial-profile d-flex align-items-center">
+                                <img src="assets/testimonials/testimonial-2.jpg" alt="Testimonial Image" width="46">
+                                <div class="profile-data d-flex flex-column">
+                                    <h6>Siti Rahma</h6>
+                                    <p>Front-End Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-testimonial d-flex flex-column justify-content-between">
+                            <div class="wrapper">
+                                <div class="testimonial-rating d-flex align-items-center">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <p>(5.0)</p>
+                                </div>
+                                <p class="testimonial-message">“The courses at Skillio are exactly what I needed to build my skills. The interactive lessons made learning JavaScript so much easier.”</p>
+                            </div>
+                            <div class="testimonial-profile d-flex align-items-center">
+                                <img src="assets/testimonials/testimonial-3.jpg" alt="Testimonial Image" width="46">
+                                <div class="profile-data d-flex flex-column">
+                                    <h6>Budi Santoso</h6>
+                                    <p>Project Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-testimonial d-flex flex-column justify-content-between">
+                            <div class="wrapper">
+                                <div class="testimonial-rating d-flex align-items-center">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                    <p>(4.6)</p>
+                                </div>
+                                <p class="testimonial-message">“Skillio’s project management course opened my eyes to new methodologies. Thanks to the practical training, I can now lead teams more effectively.”</p>
+                            </div>
+                            <div class="testimonial-profile d-flex align-items-center">
+                                <img src="assets/testimonials/testimonial-4.jpg" alt="Testimonial Image" width="46">
+                                <div class="profile-data d-flex flex-column">
+                                    <h6>Laila Amira</h6>
+                                    <p>UX/UI Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-testimonial d-flex flex-column justify-content-between">
+                            <div class="wrapper">
+                                <div class="testimonial-rating d-flex align-items-center">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <p>(4.4)</p>
+                            </div>
+                            <p class="testimonial-message">“Skillio’s digital marketing course provided me with up-to-date strategies and tools. I was able to double my company’s online engagement.”</p>
+                            </div>
+                            <div class="testimonial-profile d-flex align-items-center">
+                                <img src="assets/testimonials/testimonial-5.jpg" alt="Testimonial Image" width="46">
+                                <div class="profile-data d-flex flex-column">
+                                    <h6>Rizki Putra</h6>
+                                    <p>Digital Marketer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-testimonial d-flex flex-column justify-content-between">
+                            <div class="wrapper">
+                                <div class="testimonial-rating d-flex align-items-center">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <p>(4.7)</p>
+                            </div>
+                            <p class="testimonial-message">“Thanks to Skillio, I gained a deeper understanding of full-stack development. The real-world projects gave me the confidence to contribute.”</p>
+                            </div>
+                            <div class="testimonial-profile d-flex align-items-center">
+                                <img src="assets/testimonials/testimonial-6.jpg" alt="Testimonial Image" width="46">
+                                <div class="profile-data d-flex flex-column">
+                                    <h6>Indah Pertiwi</h6>
+                                    <p>Software Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-testimonial d-flex flex-column justify-content-between">
+                            <div class="wrapper">
+                                <div class="testimonial-rating d-flex align-items-center">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <p>(4.9)</p>
+                            </div>
+                            <p class="testimonial-message">“Skillio’s comprehensive learning paths made it easy to specialize in cloud computing. I’ve since helped multiple clients transition smoothly.”</p>
+                            </div>
+                            <div class="testimonial-profile d-flex align-items-center">
+                                <img src="assets/testimonials/testimonial-7.jpg" alt="Testimonial Image" width="46">
+                                <div class="profile-data d-flex flex-column">
+                                    <h6>Ahmad Fauzi</h6>
+                                    <p>IT Consultant</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-testimonial d-flex flex-column justify-content-between">
+                            <div class="wrapper">
+                                <div class="testimonial-rating d-flex align-items-center">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <p>(4.8)</p>
+                            </div>
+                            <p class="testimonial-message">“Skillio’s business analysis course gave me the competitive edge I needed. I’ve been able to streamline business processes and recommend data driven.”</p>
+                            </div>
+                            <div class="testimonial-profile d-flex align-items-center">
+                                <img src="assets/testimonials/testimonial-8.jpg" alt="Testimonial Image" width="46">
+                                <div class="profile-data d-flex flex-column">
+                                    <h6>Dina Kartika</h6>
+                                    <p>Business Analyst</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-testimonial d-flex flex-column justify-content-between">
+                            <div class="wrapper">
+                                <div class="testimonial-rating d-flex align-items-center">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <p>(5.0)</p>
+                            </div>
+                            <p class="testimonial-message">"The cybersecurity courses at Skillio are top-notch. I learned how to identify and mitigate threats effectively, and it’s helped me secure a promotion in my department."</p>
+                            </div>
+                            <div class="testimonial-profile d-flex align-items-center">
+                                <img src="assets/testimonials/testimonial-9.jpg" alt="Testimonial Image" width="46">
+                                <div class="profile-data d-flex flex-column">
+                                    <h6>Arif Susanto</h6>
+                                    <p>Cybersecurity Specialist</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-testimonial d-flex flex-column justify-content-between">
+                            <div class="wrapper">
+                                <div class="testimonial-rating d-flex align-items-center">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <img src="assets/icons/star-warning.svg" alt="Star Icon" width="16">
+                                <p>(4.5)</p>
+                            </div>
+                            <p class="testimonial-message">"Skillio transformed my approach to product management. The combination of theory and practical case studies helped me refine my skills.”</p>
+                            </div>
+                            <div class="testimonial-profile d-flex align-items-center">
+                                <img src="assets/testimonials/testimonial-10.jpg" alt="Testimonial Image" width="46">
+                                <div class="profile-data d-flex flex-column">
+                                    <h6>Maya Sari</h6>
+                                    <p>Product Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="main-footer">
+            <section class="cta" id="cta">
+                <div class="container d-flex justify-content-center" style="position: relative;">
+                    <div class="content d-flex flex-column align-items-center">
+                        <h2 class="title">Unlock Your Potential and Start Building the Career of Your Dreams</h2>
+                        <p class="description">Your future starts here. Whether you’re looking to sharpen your skills or explore new opportunities, Skillio is the platform that will guide you toward success. Join our growing community of learners and professionals who are shaping the future of work through knowledge and innovation.</p>
+                        <div class="button-group d-flex align-items-center">
+                            <a href="index.html" class="button-primary reverse" style="width: fit-content !important;">
+                                <span>Get Started Now</span>
+                            </a>
+                            <a href="course.html" class="button-secondary">
+                                <span>Browse Courses</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/components/component-rounded-light.svg" alt="Background Light Blur" width="1200" class="background-light-blur">
+            </section>
+            <div class="container">
+                <footer class="footer" id="footer">
+                    <div class="footer-header d-flex justify-content-between align-items-center">
+                        <a href="index.html">
+                            <img src="assets/brands/brand-text-secondary.svg" alt="Brand Text" width="82">
+                        </a>
+                        <div class="sosmed-group d-flex align-items-center">
+                            <a href="https://www.facebook.com/" target="_blank" class="sosmed-item d-flex align-items-center justify-content-center">
+                                <span class="facebook-icon"></span>
+                            </a>
+                            <a href="https://www.whatsapp.com/" target="_blank" class="sosmed-item d-flex align-items-center justify-content-center">
+                                <span class="whatsapp-icon"></span>
+                            </a>
+                            <a href="https://www.twitter.com/" target="_blank" class="sosmed-item d-flex align-items-center justify-content-center">
+                                <span class="twitter-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-list">
+                        <div class="list-link d-flex flex-column">
+                            <h6>Quick Link</h6>
+                            <a href="index.html">Home</a>
+                            <a href="category.html">Categories</a>
+                            <a href="about.html">About Us</a>
+                            <a href="course.html">Course</a>
+                        </div>
+                        <div class="list-link d-flex flex-column">
+                            <h6>Why Choose Us</h6>
+                            <a href="index.html#whyChooseUs">Tailored Learning Paths</a>
+                            <a href="index.html#whyChooseUs">Top-Tier Instructors</a>
+                            <a href="index.html#whyChooseUs">Interactive Community</a>
+                            <a href="index.html#whyChooseUs">Comprehensive Support</a>
+                            <a href="index.html#whyChooseUs">Real-World Skills</a>
+                        </div>
+                        <div class="list-link d-flex flex-column">
+                            <h6>Benefit With Us</h6>
+                            <a href="index.html#benefit">Flexible Learning</a>
+                            <a href="index.html#benefit">Expert Mentors</a>
+                            <a href="index.html#benefit">Real-World Projects</a>
+                            <a href="index.html#benefit">Career Growth Opportunities</a>
+                        </div>
+                        <div class="list-link d-flex flex-column">
+                            <h6>Help & Guide</h6>
+                            <button type="button">Terms & Conditions</button>
+                            <button type="button">Privacy Policy</button>
+                            <button type="button">Contact Us</button>
+                        </div>
+                    </div>
+                </footer>
+                <div class="copyright d-flex align-items-center justify-content-between">
+                    <p>Copyright © 2024 Skillio. All Right Reserved.</p>
+                    <button type="button" class="badge-language d-flex align-items-center">
+                        <img src="assets/icons/indonesia-flag.svg" alt="Indonesian Flag" width="16">
+                        <span>Indonesian</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- END MAIN PAGE -->
+
+    <!-- SCRIPT JS -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/animation/animation-navbar.js"></script>
+    <script src="js/animation/animation-main.js"></script>
+    <script>
+        $(document).ready(function () {
+            let popularCourse
+            function cardCourse(image, payment, level, course_title, description, instructor, duration, discount, price) {
+                return `<a href="detail-course.html" class="content-course d-flex flex-column" style="opacity: 0;">
+                            <img src="assets/courses/${image}" alt="Course Image" style="width: 100%;">
+                            <div class="course-information d-flex flex-column">
+                                <div class="information-category">
+                                    <button type="button">${payment}</button>
+                                    <button type="button">${level}</button>
+                                </div>
+                                <h6 class="information-title clamp-2">${course_title}</h6>
+                                <p class="information-description clamp-2">${description}</p>
+                                <div class="information-instructor d-flex align-items-center">
+                                    <img src="assets/icons/user-dark.svg" alt="Instructor Icon" width="13">
+                                    <p>${instructor}</p>
+                                </div>
+                                <div class="information-duration d-flex align-items-center">
+                                    <img src="assets/icons/hour-dark.svg" alt="Hour Icon" width="14">
+                                    <p>${duration} hours</p>
+                                </div>
+                                <div class="information-price d-flex align-items-center">
+                                    <h4>${discount != 0 ? discount.toLocaleString('id-ID', { style: 'currency', currency: 'IDR' }) : 'Free Course'}</h4>
+                                    <h6>${price != 0 ? discount.toLocaleString('id-ID', { style: 'currency', currency: 'IDR' }) : ''}</h6>
+                                </div>
+                            </div>
+                        </a>`
+            }
+
+            fetch('./data/course.json')
+                .then((response) => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then((courses) => {
+                    popularCourse = courses.sort((a, b) => {
+                        return b.student - a.student;
+                    });
+
+                    popularCourse.forEach((course, index) => {
+                        if (index < 8) {
+                            $('section.course .section-content').append(cardCourse(course.image, course.payment, course.level, course.course_title, course.description, course.instructor.name, course.duration, course.discount, course.price))
+                        }
+                    })
+                })
+                .catch((error) => console.log("Unable to fetch data:", error));
+
+            $('section.testimonial .wrapper-testimonial .button-primary').on('click', function() {
+                $('section.testimonial .section-content').toggleClass('all')
+                let labelButton = $('section.testimonial .wrapper-testimonial .button-primary span').text()
+                if (labelButton == 'View More Testimonial') {
+                    $('section.testimonial .wrapper-testimonial .button-primary span').text('View Less Testimonial')
+                    $('.main-wrapper').css('padding-bottom', '182px')
+                } else {
+                    $('section.testimonial .wrapper-testimonial .button-primary span').text('View More Testimonial')
+                    $('.main-wrapper').css('padding-bottom', '120px')
+                }
+            })
+        });
+    </script>
+    <!-- END SCRIPT JS -->
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register Page | Skillio</title>
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/custom-keyframe.css">
+    <link rel="stylesheet" href="css/component.css">
+    <link rel="stylesheet" href="css/custom-framework.css">
+    <link rel="stylesheet" href="css/page/authentication.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- END STYLE CSS -->
+
+    <!-- FAVICON MATIC -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="assets/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="assets/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+    <!-- END FAVICON MATIC -->
+</head>
+<body>
+    <!-- REGISTER PAGE -->
+    <div class="loader-page">
+        <div class="spinner"></div>
+    </div>
+    <main class="main-page hidden authentication-page register d-flex justify-content-center">
+        <div class="authentication-banner none-tablet">
+            <img src="assets/banners/register.jpg" alt="Register Banner" class="banner-image" draggable="false">
+            <a href="index.html" class="button-blur-light d-flex align-items-center button-to-main">
+                <span>Back to Website</span>
+                <span class="arrow-button"></span>
+            </a>
+        </div>
+        <div class="authentication-form d-flex align-items-center justify-content-center">
+            <div class="content">
+                <h2 class="title">Join Skillio Right Now!</h2>
+                <div class="description">Create your Skillio account and take the first step toward mastering new skills and advancing your career.</div>
+                <form>
+                    <div class="form-input">
+                        <input type="text" id="username" class="input" autocomplete="off" placeholder=" ">
+                        <label for="username">Username</label>
+                    </div>
+                    <div class="form-input">
+                        <input type="email" id="email" class="input" autocomplete="off" placeholder=" ">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-input">
+                        <input type="password" id="password" class="input" autocomplete="off" placeholder=" ">
+                        <label for="password">Password</label>
+                    </div>
+                    <a href="login.html" class="button-primary button-to-login" style="width: 100%; text-align: center;">
+                        <span>Create an Account</span>
+                    </a>
+                </form>
+                <p class="link-redirect">Already have an account? <a href="login.html" class="button-to-login">Login</a></p>
+            </div>
+        </div>
+    </main>
+    <!-- END REGISTER PAGE -->
+
+    <!-- SCRIPT JS -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/animation/animation-register.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.button-to-login').on('click', function(event) {
+                $('.main-page').addClass('slide-right')
+                setTimeout(() => {
+                    changeURL('login.html')
+                }, 250)
+                event.preventDefault()
+            })
+
+            $('.button-to-main').on('click', function(event) {
+                $('.main-page').addClass('slide-bottom')
+                setTimeout(() => {
+                    changeURL('index.html')
+                }, 250)
+                event.preventDefault()
+            })
+        })
+    </script>
+    <!-- END SCRIPT JS -->
+</body>
+</html>

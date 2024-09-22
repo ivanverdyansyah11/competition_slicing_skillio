@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Page | Skillio</title>
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/custom-keyframe.css">
+    <link rel="stylesheet" href="css/component.css">
+    <link rel="stylesheet" href="css/component/navbar.css">
+    <link rel="stylesheet" href="css/custom-framework.css">
+    <link rel="stylesheet" href="css/page/main.css">
+    <link rel="stylesheet" href="css/component/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- END STYLE CSS -->
+
+    <!-- FAVICON MATIC -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="assets/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="assets/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="assets/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+    <!-- END FAVICON MATIC -->
+</head>
+<body>
+    <!-- MAIN PAGE -->
+    <div class="loader-page">
+        <div class="spinner"></div>
+    </div>
+    <main class="main-page hidden about">
+        <nav class="navbar d-flex flex-column">
+            <div class="navbar-link d-flex justify-content-center" style="width: 100%;">
+                <div class="container d-flex justify-content-between align-items-center">
+                    <div class="wrapper d-flex align-items-center">
+                        <a href="index.html" class="link-brand">
+                            <img src="assets/brands/brand-text-secondary.svg" alt="Brand Text" width="86" class="brand-text">
+                            <span class="brand-image"></span>
+                        </a>
+                        <div class="link-item d-flex align-items-center">
+                            <button class="button-category">Categories</button>
+                            <a href="index.html">Home</a>
+                            <a href="about.html" class="active">About</a>
+                            <a href="course.html">Course</a>
+                            <div class="popup d-flex">
+                                <div class="category-list hidden d-flex flex-column">
+                                </div>
+                                <div class="sub-category-list hidden d-flex flex-column">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="link-profile d-flex align-items-center">
+                        <a href="wishlist.html" class="profile-wrapper d-flex align-items-center justify-content-center">
+                            <img src="assets/icons/like-outline-light.svg" alt="Like Icon" width="18" class="like-icon">
+                        </a>
+                        <a href="cart.html" class="profile-wrapper d-flex align-items-center justify-content-center">
+                            <img src="assets/icons/cart-outline-light.svg" alt="Cart Icon" width="20" class="cart-icon">
+                        </a>
+                        <a href="profile.html" class="profile-wrapper d-flex align-items-center justify-content-center">
+                            <span class="profile-name">Aditya Prayatna</span>
+                            <img src="assets/profile/profile-image.svg" alt="Profile Image" class="profile-image">
+                        </a>
+                        <button class="profile-wrapper d-flex align-items-center justify-content-center hamburger">
+                            <img src="assets/icons/hamburger-light.svg" alt="Hamburger Icon" width="19" class="hamburger-icon">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-category d-flex justify-content-center align-items-center">
+                <div class="container d-flex justify-content-center align-items-center"></div>
+            </div>
+        </nav>
+        <div class="navbar-mobile hidden d-flex flex-column align-items-center justify-content-center">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="course.html">Course</a>
+            <a href="profile.html">Profile</a>
+        </div>
+        <section class="hero d-flex align-items-center" id="hero">
+            <div class="container d-flex align-items-end justify-content-between">
+                <img src="assets/components/component-doughnut.svg" alt="Component Doughnut" width="150" class="component-doughnut">
+                <img src="assets/components/component-buble.svg" alt="Component Buble" width="980" class="component-buble">
+                <div class="hero-content d-flex align-items-center">
+                    <div class="wrapper">
+                        <h1 class="headline">Empowering
+                            <br>Forever Learners
+                            <br>With Skillio.</h1>
+                        <p class="description">At Skillio, we believe in the power of education to transform lives. Our mission is to provide accessible, high-quality learning experiences that enable individuals to grow their skills, advance their careers</p>
+                        <div class="button-group d-flex align-items-center">
+                            <a href="#history" class="button-dark">
+                                <span>Learn More</span>
+                            </a>
+                            <a href="about.html" class="button-secondary">
+                                <span>Join Community</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-banner">
+                    <img src="assets/banners/about-section-hero.svg" alt="Banner Section Hero">
+                </div>
+            </div>
+        </section>
+        <div class="main-wrapper">
+            <section class="partner" id="partner">
+                <div class="container d-flex align-items-center">
+                    <div class="partner-primary d-flex align-items-center">
+                        <img src="assets/partners/google.svg" alt="Google Icon" width="129">
+                        <img src="assets/partners/bangkit.svg" alt="Bangkit Icon" width="149">
+                        <img src="assets/partners/microsoft.svg" alt="Microsoft Icon" width="149">
+                        <img src="assets/partners/samsung.svg" alt="Samsung Icon" width="149">
+                        <img src="assets/partners/alcatel-lucent-enterprise.svg" alt="Alcatel Lucent Enterprise Icon" width="148">
+                        <img src="assets/partners/lenovo.svg" alt="Lenovo Icon" width="132">
+                        <img src="assets/partners/ericsson.svg" alt="Ericsson Icon" width="180">
+                    </div>
+                    <div class="partner-secondary d-flex align-items-center">
+                        <img src="assets/partners/google.svg" alt="Google Icon" width="129">
+                        <img src="assets/partners/bangkit.svg" alt="Bangkit Icon" width="149">
+                        <img src="assets/partners/microsoft.svg" alt="Microsoft Icon" width="149">
+                        <img src="assets/partners/samsung.svg" alt="Samsung Icon" width="149">
+                        <img src="assets/partners/alcatel-lucent-enterprise.svg" alt="Alcatel Lucent Enterprise Icon" width="148">
+                        <img src="assets/partners/lenovo.svg" alt="Lenovo Icon" width="132">
+                        <img src="assets/partners/ericsson.svg" alt="Ericsson Icon" width="180">
+                    </div>
+                </div>
+            </section>
+            <section class="history section-gap" id="history">
+                <div class="container d-flex">
+                    <h6 class="subtitle">Our Skillio History</h6>
+                    <div class="history-content">
+                        <h3 class="title">The Journey of Skillio From Vision to Reality</h3>
+                        <p class="description">Skillio was founded with a bold vision: to make high-quality education accessible to everyone, regardless of their background or location. From our humble beginnings as a small online learning platform, we have grown into a trusted resource for learners around the world. Our mission has always been to bridge the skills gap in rapidly evolving industries by offering practical, hands-on courses that prepare individuals for the real challenges of the modern workforce.</p>
+                        <p class="description">Over the years, Skillio has partnered with industry experts and forward-thinking organizations to expand our offerings and continuously improve our content. Today, we serve thousands of learners, helping them advance in their careers, switch professions, or simply acquire new skills. With a focus on innovation and community, Skillio is committed to empowering the next generation of professionals to thrive in a world driven by technology and creativity.</p>
+                        <div class="content-value content-gap">
+                            <div class="value d-flex flex-column align-items-center justify-content-center">
+                                <div class="value-wrapper d-flex flex-column align-items-center">
+                                    <h2>7+</h2>
+                                    <p>Total Category</p>
+                                </div>
+                            </div>
+                            <div class="value d-flex flex-column align-items-center justify-content-center">
+                                <div class="value-wrapper d-flex flex-column align-items-center">
+                                    <h2>3420+</h2>
+                                    <p>Total Student</p>
+                                </div>
+                            </div>
+                            <div class="value d-flex flex-column align-items-center justify-content-center">
+                                <div class="value-wrapper d-flex flex-column align-items-center">
+                                    <h2>62+</h2>
+                                    <p>Total Instructor</p>
+                                </div>
+                            </div>
+                            <div class="value d-flex flex-column align-items-center justify-content-center">
+                                <div class="value-wrapper d-flex flex-column align-items-center">
+                                    <h2>20+</h2>
+                                    <p>Total Partnership</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="main-footer middle">
+            <section class="quote" id="quote">
+                <div class="container d-flex justify-content-center" style="position: relative;">
+                    <div class="content d-flex flex-column align-items-center">
+                        <h3 class="quote-message">“Education is the most powerful weapon which you can use to change the world.”</h3>
+                        <p class="quote-author">Nelson Mandela</p>
+                    </div>
+                </div>
+                <img src="assets/components/component-rounded-light.svg" alt="Background Light Blur" width="1200" class="background-light-blur">
+            </section>
+        </div>
+        <div class="main-wrapper">
+            <section class="vision section-gap" id="vision">
+                <div class="container d-flex flex-column">
+                    <div class="section-header d-flex justify-content-between align-items-end">
+                        <div class="header-left">
+                            <h6 class="subtitle">Vission Platform</h6>
+                            <h3 class="title">Shaping the Future of Learning</h3>
+                        </div>
+                        <div class="header-right">
+                            <p class="description">At Skillio, our vision is to become a global leader in transforming education by making learning more accessible, dynamic, and impactful.</p>
+                        </div>
+                    </div>
+                    <div class="section-content content-gap">
+                        <div class="content-vision">
+                            <h5>01</h5>
+                            <div class="vision-data">
+                                <h6 class="clamp-2">Become a Global Leader in Online Education</h6>
+                                <p class="clamp-3">We envision Skillio as a trusted, worldwide platform where learners can access top-quality education and professional development resources anytime, anywhere.</p>
+                            </div>
+                        </div>
+                        <div class="content-vision">
+                            <h5>02</h5>
+                            <div class="vision-data">
+                                <h6 class="clamp-2">Foster Lifelong Learning for All</h6>
+                                <p class="clamp-3">Our vision is to create a world where continuous learning is a way of life, enabling individuals to grow and adapt throughout their careers and personal journeys.</p>
+                            </div>
+                        </div>
+                        <div class="content-vision">
+                            <h5>03</h5>
+                            <div class="vision-data">
+                                <h6 class="clamp-2">Champion Innovation in Digital Education</h6>
+                                <p class="clamp-3">We strive to revolutionize the way education is delivered by embracing cutting-edge technology, ensuring learners are equipped with the skills needed.</p>
+                            </div>
+                        </div>
+                        <div class="content-vision">
+                            <h5>04</h5>
+                            <div class="vision-data">
+                                <h6 class="clamp-2">Create a Thriving Global Learning Community</h6>
+                                <p class="clamp-3">Skillio aims to build a vibrant, diverse community of learners and educators who support, inspire, and collaborate to advance knowledge.</p>
+                            </div>
+                        </div>
+                        <div class="content-vision">
+                            <h5>05</h5>
+                            <div class="vision-data">
+                                <h6 class="clamp-2">Bridge the Digital Divide</h6>
+                                <p class="clamp-3">Our vision is to close the education gap by making high-quality learning experiences accessible to individuals in underserved communities</p>
+                            </div>
+                        </div>
+                        <div class="content-vision">
+                            <h5>06</h5>
+                            <div class="vision-data">
+                                <h6 class="clamp-2">Inspire a New Generation of Leaders</h6>
+                                <p class="clamp-3">We aspire to nurture the next wave of innovative thinkers, entrepreneurs, and professionals, giving them the tools and knowledge they need to lead with confidence.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mission section-gap" id="mission">
+                <div class="container d-flex flex-column">
+                    <div class="section-header d-flex justify-content-between align-items-end">
+                        <div class="header-left">
+                            <h6 class="subtitle">Mission Platform</h6>
+                            <h3 class="title">Empowering Growth Through Learning</h3>
+                        </div>
+                        <div class="header-right">
+                            <p class="description">At Skillio, our mission is to provide accessible, high-quality education that equips individuals with the skills they need to thrive in today’s ever-evolving digital world.</p>
+                        </div>
+                    </div>
+                    <div class="section-content content-gap">
+                        <div class="content-mission">
+                            <h5>01</h5>
+                            <div class="mission-data">
+                                <h6 class="clamp-2">Empower Lifelong Learning</h6>
+                                <p class="clamp-3">We aim to cultivate a passion for continuous education, ensuring that learners have the tools and resources they need to grow at every stage of their personal.</p>
+                            </div>
+                        </div>
+                        <div class="content-mission">
+                            <h5>02</h5>
+                            <div class="mission-data">
+                                <h6 class="clamp-2">Bridge the Skills Gap</h6>
+                                <p class="clamp-3">By offering relevant, up-to-date courses, we strive to close the gap between the skills employers need and the abilities learners possess, preparing individuals for success.</p>
+                            </div>
+                        </div>
+                        <div class="content-mission">
+                            <h5>03</h5>
+                            <div class="mission-data">
+                                <h6 class="clamp-2">Provide Accessible Education</h6>
+                                <p class="clamp-3">We are dedicated to making high-quality education accessible to everyone, regardless of background, location, or financial situation, and through affordable.</p>
+                            </div>
+                        </div>
+                        <div class="content-mission">
+                            <h5>04</h5>
+                            <div class="mission-data">
+                                <h6 class="clamp-2">Foster Practical, Real-World Skills</h6>
+                                <p class="clamp-3">Our mission is to offer hands-on learning experiences that equip students with practical skills they can immediately apply in their careers.</p>
+                            </div>
+                        </div>
+                        <div class="content-mission">
+                            <h5>05</h5>
+                            <div class="mission-data">
+                                <h6 class="clamp-2">Build a Global Learning Community</h6>
+                                <p class="clamp-3">Skillio is committed to creating a supportive, diverse, and collaborative community of learners and educators, where knowledge-sharing.</p>
+                            </div>
+                        </div>
+                        <div class="content-mission">
+                            <h5>06</h5>
+                            <div class="mission-data">
+                                <h6 class="clamp-2">Drive Innovation in Education</h6>
+                                <p class="clamp-3">We continuously seek to innovate in how we teach and deliver education, leveraging technology and new teaching methods to enhance learning.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="team section-gap" id="team">
+                <div class="container d-flex flex-column">
+                    <div class="section-header d-flex justify-content-between align-items-end">
+                        <div class="header-left">
+                            <h6 class="subtitle">Meet Our Team</h6>
+                            <h3 class="title">Meet the Visionaries Behind Skillio</h3>
+                        </div>
+                        <div class="header-right">
+                            <p class="description">Our team at Skillio is composed of passionate educators, innovators, and industry experts dedicated to transforming the way people learn and grow.</p>
+                        </div>
+                    </div>
+                    <div class="section-content content-gap">
+                        <div class="content-team">
+                            <img src="assets/instructors/instructor-1.jpg" alt="Team Image">
+                            <div class="team-data d-flex justify-content-between align-items-center">
+                                <div class="wrapper d-flex flex-column">
+                                    <h6>Michael Setiawan</h6>
+                                    <p>Founder & CEO</p>
+                                </div>
+                                <a href="https://id.linkedin.com/" target="_blank">
+                                    <img src="assets/icons/linkedin-primary.svg" alt="Linkedin Icon" width="20">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content-team">
+                            <img src="assets/instructors/instructor-2.jpg" alt="Team Image">
+                            <div class="team-data d-flex justify-content-between align-items-center">
+                                <div class="wrapper d-flex flex-column">
+                                    <h6>Amelia Priyono</h6>
+                                    <p>Chief Technology Officer (CTO)</p>
+                                </div>
+                                <a href="https://id.linkedin.com/" target="_blank">
+                                    <img src="assets/icons/linkedin-primary.svg" alt="Linkedin Icon" width="20">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content-team">
+                            <img src="assets/instructors/instructor-3.jpg" alt="Team Image">
+                            <div class="team-data d-flex justify-content-between align-items-center">
+                                <div class="wrapper d-flex flex-column">
+                                    <h6>Rizky Pratama</h6>
+                                    <p>Chief Marketing Officer (CMO)</p>
+                                </div>
+                                <a href="https://id.linkedin.com/" target="_blank">
+                                    <img src="assets/icons/linkedin-primary.svg" alt="Linkedin Icon" width="20">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content-team">
+                            <img src="assets/instructors/instructor-4.jpg" alt="Team Image">
+                            <div class="team-data d-flex justify-content-between align-items-center">
+                                <div class="wrapper d-flex flex-column">
+                                    <h6>Dewi Kartika</h6>
+                                    <p>Head of Curriculum Development</p>
+                                </div>
+                                <a href="https://id.linkedin.com/" target="_blank">
+                                    <img src="assets/icons/linkedin-primary.svg" alt="Linkedin Icon" width="20">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content-team">
+                            <img src="assets/instructors/instructor-5.jpg" alt="Team Image">
+                            <div class="team-data d-flex justify-content-between align-items-center">
+                                <div class="wrapper d-flex flex-column">
+                                    <h6>Sarah Wijaya</h6>
+                                    <p>Lead UI/UX Designer</p>
+                                </div>
+                                <a href="https://id.linkedin.com/" target="_blank">
+                                    <img src="assets/icons/linkedin-primary.svg" alt="Linkedin Icon" width="20">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content-team">
+                            <img src="assets/instructors/instructor-6.jpg" alt="Team Image">
+                            <div class="team-data d-flex justify-content-between align-items-center">
+                                <div class="wrapper d-flex flex-column">
+                                    <h6>Andi Saputra</h6>
+                                    <p>Senior Software Engineer</p>
+                                </div>
+                                <a href="https://id.linkedin.com/" target="_blank">
+                                    <img src="assets/icons/linkedin-primary.svg" alt="Linkedin Icon" width="20">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content-team">
+                            <img src="assets/instructors/instructor-7.jpg" alt="Team Image">
+                            <div class="team-data d-flex justify-content-between align-items-center">
+                                <div class="wrapper d-flex flex-column">
+                                    <h6>Clara Nugraha</h6>
+                                    <p>Community Engagement Manager</p>
+                                </div>
+                                <a href="https://id.linkedin.com/" target="_blank">
+                                    <img src="assets/icons/linkedin-primary.svg" alt="Linkedin Icon" width="20">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="main-footer">
+            <section class="cta" id="cta">
+                <div class="container d-flex justify-content-center" style="position: relative;">
+                    <div class="content d-flex flex-column align-items-center">
+                        <h2 class="title">Unlock Your Potential and Start Building the Career of Your Dreams</h2>
+                        <p class="description">Your future starts here. Whether you’re looking to sharpen your skills or explore new opportunities, Skillio is the platform that will guide you toward success. Join our growing community of learners and professionals who are shaping the future of work through knowledge and innovation.</p>
+                        <div class="button-group d-flex align-items-center">
+                            <a href="index.html" class="button-primary reverse" style="width: fit-content !important;">
+                                <span>Get Started Now</span>
+                            </a>
+                            <a href="course.html" class="button-secondary">
+                                <span>Browse Courses</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/components/component-rounded-light.svg" alt="Background Light Blur" width="1200" class="background-light-blur">
+            </section>
+            <div class="container">
+                <footer class="footer" id="footer">
+                    <div class="footer-header d-flex justify-content-between align-items-center">
+                        <a href="index.html">
+                            <img src="assets/brands/brand-text-secondary.svg" alt="Brand Text" width="82">
+                        </a>
+                        <div class="sosmed-group d-flex align-items-center">
+                            <a href="https://www.facebook.com/" target="_blank" class="sosmed-item d-flex align-items-center justify-content-center">
+                                <span class="facebook-icon"></span>
+                            </a>
+                            <a href="https://www.whatsapp.com/" target="_blank" class="sosmed-item d-flex align-items-center justify-content-center">
+                                <span class="whatsapp-icon"></span>
+                            </a>
+                            <a href="https://www.twitter.com/" target="_blank" class="sosmed-item d-flex align-items-center justify-content-center">
+                                <span class="twitter-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-list">
+                        <div class="list-link d-flex flex-column">
+                            <h6>Quick Link</h6>
+                            <a href="index.html">Home</a>
+                            <a href="category.html">Categories</a>
+                            <a href="about.html">About Us</a>
+                            <a href="course.html">Course</a>
+                        </div>
+                        <div class="list-link d-flex flex-column">
+                            <h6>Why Choose Us</h6>
+                            <a href="index.html#whyChooseUs">Tailored Learning Paths</a>
+                            <a href="index.html#whyChooseUs">Top-Tier Instructors</a>
+                            <a href="index.html#whyChooseUs">Interactive Community</a>
+                            <a href="index.html#whyChooseUs">Comprehensive Support</a>
+                            <a href="index.html#whyChooseUs">Real-World Skills</a>
+                        </div>
+                        <div class="list-link d-flex flex-column">
+                            <h6>Benefit With Us</h6>
+                            <a href="index.html#benefit">Flexible Learning</a>
+                            <a href="index.html#benefit">Expert Mentors</a>
+                            <a href="index.html#benefit">Real-World Projects</a>
+                            <a href="index.html#benefit">Career Growth Opportunities</a>
+                        </div>
+                        <div class="list-link d-flex flex-column">
+                            <h6>Help & Guide</h6>
+                            <button type="button">Terms & Conditions</button>
+                            <button type="button">Privacy Policy</button>
+                            <button type="button">Contact Us</button>
+                        </div>
+                    </div>
+                </footer>
+                <div class="copyright d-flex align-items-center justify-content-between">
+                    <p>Copyright © 2024 Skillio. All Right Reserved.</p>
+                    <button type="button" class="badge-language d-flex align-items-center">
+                        <img src="assets/icons/indonesia-flag.svg" alt="Indonesian Flag" width="16">
+                        <span>Indonesian</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- END MAIN PAGE -->
+
+    <!-- SCRIPT JS -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/animation/animation-navbar.js"></script>
+    <script src="js/animation/animation-about.js"></script>
+    <script>
+        const quotes = [
+            {
+                "quote": "The beautiful thing about learning is that no one can take it away from you.",
+                "author": "B.B. King"
+            },
+            {
+                "quote": "Education is not preparation for life; education is life itself.",
+                "author": "John Dewey"
+            },
+            {
+                "quote": "The purpose of education is to replace an empty mind with an open one.",
+                "author": "Malcolm Forbes"
+            },
+            {
+                "quote": "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
+                "author": "Malcolm X"
+            },
+            {
+                "quote": "An investment in knowledge pays the best interest.",
+                "author": "Benjamin Franklin"
+            },
+            {
+                "quote": "The function of education is to teach one to think intensively and to think critically. Intelligence plus character—that is the goal of true education.",
+                "author": "Martin Luther King Jr."
+            },
+            {
+                "quote": "Education is the most powerful weapon which you can use to change the world.",
+                "author": "Nelson Mandela"
+            },
+            {
+                "quote": "The roots of education are bitter, but the fruit is sweet.",
+                "author": "Aristotle"
+            },
+            {
+                "quote": "It is the mark of an educated mind to be able to entertain a thought without accepting it.",
+                "author": "Aristotle"
+            },
+            {
+                "quote": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+                "author": "Mahatma Gandhi"
+            }
+        ];
+
+        let currentQuoteIndex = 0;
+        function updateQuote() {
+            $('.quote-message, .quote-author').removeClass('fade-in').addClass('fade-out')
+            setTimeout(() => {
+                $('.quote-message').text(`“${quotes[currentQuoteIndex].quote}”`).removeClass('fade-out').addClass('fade-in');
+                $('.quote-author').text(`~ ${quotes[currentQuoteIndex].author} ~`).removeClass('fade-out').addClass('fade-in');
+            }, 250)
+            currentQuoteIndex = (currentQuoteIndex + 1) % quotes.length;
+        }
+        updateQuote();
+        setInterval(updateQuote, 5000);
+    </script>
+    <!-- END SCRIPT JS -->
+</body>
+</html>
