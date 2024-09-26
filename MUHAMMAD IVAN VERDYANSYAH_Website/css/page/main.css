@@ -61,15 +61,11 @@ section.hero .hero-content .headline {
 
 .profile section.hero .hero-content .menu-link {
     width: 100%;
-    overflow-x: scroll;
-}
-
-.profile section.hero .hero-content .menu-link .wrapper {
-    width: 100%;
 }
 
 .profile section.hero .hero-content .menu-link a,
 .profile section.hero .hero-content .menu-link button {
+    display: inline-block;
     width: fit-content;
     background-color: transparent;
     border: none;
@@ -253,6 +249,7 @@ section.course .section-content {
     display: grid;
     grid-template-columns: 25% 75%;
     gap: 20px;
+    width: 100%;
 }
 
 .course section.course .section-content.all-course .course-content,
@@ -260,6 +257,16 @@ section.course .section-content {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px;
+}
+
+.course section.course .section-content.all-course .course-content .text-notfound,
+.category section.course .section-content.all-course .course-content .text-notfound {
+    grid-column: 1 / span 3;
+    text-align: center;
+    margin-top: 42px;
+    color: rgba(var(--dark-color), 0.62);
+    font-size: 0.913rem;
+    width: 100%;
 }
 
 section.course .section-content .content-course {
@@ -823,6 +830,16 @@ section.testimonial .section-content .content-testimonial .testimonial-profile .
     border-top: var(--border-style) rgba(var(--dark-color), 0.12);
 }
 
+.course section.course .all-course .course-filter .filter-category input[type="text"],
+.category section.course .all-course .course-filter .filter-category input[type="text"] {
+    padding: 15px 18px;
+}
+
+.course section.course .all-course .course-filter .filter-category .form-input,
+.category section.course .all-course .course-filter .filter-category .form-input {
+    gap: 6px;
+}
+
 .course section.course .all-course .course-filter .filter-category h6,
 .category section.course .all-course .course-filter .filter-category h6 {
     font-size: 0.875rem;
@@ -1105,7 +1122,9 @@ section.detail .wrapper-testimonial {
 
 /* PAGE PROFILE */
 .profile section.profile .section-content,
-.profile section.course .section-content {
+.profile section.course .section-header,
+.profile section.course .section-content,
+.profile section.cart .section-content {
     width: 80%;
 }
 
@@ -1130,11 +1149,18 @@ section.detail .wrapper-testimonial {
     z-index: -9999;
 }
 
-.profile section.profile .section-content .content-image img {
+.profile section.profile .section-content .content-image {
     width: 200px;
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 8px;
+}
+
+.edit-profile section.profile .section-content .content-image img {
+    width: 100%;
+    border-radius: 9999px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 .profile section.profile .section-content .content-data .title {
@@ -1183,6 +1209,40 @@ section.detail .wrapper-testimonial {
 
 .button-file:hover {
     background-color: rgba(var(--dark-color), 0.04);
+}
+
+.profile section.profile .button-logout {
+    padding: 12px 20px;
+    border: var(--border-style) rgba(var(--danger-color), 1);
+    gap: 8px;
+    background-color: rgba(var(--light-color), 1);
+    width: fit-content !important;
+}
+
+.profile section.profile .button-logout span {
+    font-size: 0.875rem;
+    color: rgba(var(--danger-color), 1);
+}
+
+.profile section.profile .button-logout:before {
+    background-color: rgba(var(--danger-color), 1);
+}
+
+.profile section.profile .button-logout:hover span {
+    color: rgba(var(--light-color), 1);
+}
+
+.profile section.profile .button-logout .logout-icon {
+    width: 18px;
+    height: 18px;
+    background-image: url("../../assets/icons/logout-danger.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile section.profile .button-logout:hover .logout-icon {
+    background-image: url("../../assets/icons/logout-light.svg");
 }
 /* END PAGE PROFILE */
 
@@ -1333,6 +1393,244 @@ section.detail .wrapper-testimonial .card-detail-course {
     font-size: 0.75rem;
 }
 /* END CARD DETAIL COURSE */
+
+/* CARD PAGE */
+section.cart .section-content {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 32px;
+}
+
+section.cart .section-content .data-course {
+    width: 100%;
+}
+
+section.cart .section-content .data-course .course-header {
+    padding-bottom: 8px;
+    border-bottom: var(--border-style) rgba(var(--dark-color), 0.12);
+    margin-bottom: 20px;
+}
+
+section.cart .section-content .data-course .course-header p {
+    font-size: 0.875rem;
+    color: rgba(var(--dark-color), 0.62);
+}
+
+section.cart .section-content .data-course .course-item {
+    gap: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: var(--border-style) rgba(var(--dark-color), 0.12);
+}
+
+section.cart .section-content .data-course .course-item:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-color: transparent;
+}
+
+section.cart .section-content .data-course .course-item > img {
+    width: 120px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+section.cart .section-content .data-course .course-item .item-content .content-left h5 {
+    font-size: 1rem;
+    font-family: var(--urbanist-bold);
+    margin-bottom: 4px;
+}
+
+section.cart .section-content .data-course .course-item .item-content .content-left > p {
+    font-size: 0.813rem;
+    color: rgba(var(--dark-color), 0.62);
+    margin-bottom: 10px;
+}
+
+section.cart .section-content .data-course .course-item .item-content .content-left .wrapper-star {
+    margin-bottom: 10px;
+}
+
+section.cart .section-content .data-course .course-item .item-content .content-left .wrapper-star p {
+    font-size: 0.875rem;
+    color: rgba(var(--dark-color), 1);
+}
+
+section.cart .section-content .data-course .course-item .item-content .content-left .wrapper-star span {
+    color: rgba(var(--dark-color), 0.62);
+    display: inline-block;
+    font-size: 0.875rem;
+}
+
+section.cart .section-content .data-course .course-item .item-content .content-left .wrapper-detail p {
+    font-size: 0.813rem;
+    color: rgba(var(--dark-color), 0.62);
+}
+
+section.cart .section-content .data-course .course-item .item-content .content-left .wrapper-detail .bullet {
+    width: 6px;
+    height: 6px;
+    border-radius: 9999px;
+    background-color: rgba(var(--dark-color), 0.24);
+}
+
+section.cart .section-content .data-course .course-item .item-content .content-right > .wrapper {
+    height: 100%;
+}
+
+section.cart .section-content .data-course .course-item .item-content .content-right > .wrapper h4 {
+    font-size: 1.25rem;
+    font-family: var(--urbanist-bold);
+    font-weight: normal;
+    color: rgba(var(--primary-color), 1);
+    margin-bottom: 8px;
+    text-wrap: nowrap;
+}
+
+section.cart .section-content .data-course .course-item .item-content .content-right > .wrapper h6 {
+    font-size: 0.913rem;
+    color: rgba(var(--dark-color), 0.42);
+    text-decoration: line-through;
+}
+
+section.cart .section-content .data-course .course-item .item-content .content-right .wrapper-button button {
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: rgba(var(--primary-color), 0.06);
+    border: var(--border-style) rgba(var(--primary-color), 0.12);
+    cursor: pointer;
+}
+
+section.cart .section-content .data-course .course-item .item-content .content-right .wrapper-button button:first-child:hover {
+    background-color: rgba(var(--primary-color), 1);
+}
+
+section.cart .section-content .data-course .course-item .item-content .content-right .wrapper-button button:last-child {
+    border-color: rgba(var(--danger-color), 0.12);
+    background-color: rgba(var(--danger-color), 0.06);
+}
+
+section.cart .section-content .data-course .course-item .item-content .content-right .wrapper-button button:last-child:hover {
+    background-color: rgba(var(--danger-color), 1);
+}
+
+section.cart .section-content .data-course .course-item .item-content .content-right .wrapper-button button .like-icon,
+section.cart .section-content .data-course .course-item .item-content .content-right .wrapper-button button .delete-icon {
+    width: 14px;
+    height: 14px;
+    background-image: url("../../assets/icons/like-primary.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.cart .section-content .data-course .course-item .item-content .content-right .wrapper-button button .delete-icon {
+    width: 12px;
+    background-image: url("../../assets/icons/delete-danger.svg");
+}
+
+section.cart .section-content .data-course .course-item .item-content .content-right .wrapper-button button:hover .like-icon {
+    background-image: url("../../assets/icons/like-outline-light.svg");
+}
+
+section.cart .section-content .data-course .course-item .item-content .content-right .wrapper-button button:hover .delete-icon {
+    background-image: url("../../assets/icons/delete-light.svg");
+}
+
+section.cart .section-content .data-price {
+    width: 100%;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: rgba(var(--light-color), 1);
+    border: var(--border-style) rgba(var(--dark-color), 0.12);
+    height: fit-content;
+}
+
+section.cart .section-content .data-price > p {
+    font-size: 0.875rem;
+    color: rgba(var(--dark-color), 0.62);
+    margin-bottom: 8px;
+}
+
+section.cart .section-content .data-price .price-wrapper {
+    margin-bottom: 20px;
+}
+
+section.cart .section-content .data-price .price-wrapper h4 {
+    font-size: 1.5rem;
+    font-family: var(--urbanist-extrabold);
+    font-weight: normal;
+    color: rgba(var(--dark-color), 1);
+}
+
+section.cart .section-content .data-price .price-wrapper h6 {
+    font-size: 0.913rem;
+    color: rgba(var(--dark-color), 0.42);
+    text-decoration: line-through;
+}
+
+section.cart .section-content .data-price > .button-primary:hover:before {
+    width: 400px;
+    height: 400px;
+}
+
+section.cart .section-content .data-other {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: var(--border-style) rgba(var(--dark-color), 0.12);
+}
+
+section.cart .section-content .data-other h6 {
+    font-size: 0.95rem;
+    font-family: var(--urbanist-semibold);
+    margin-bottom: 4px;
+}
+
+section.cart .section-content .data-other p {
+    font-size: 0.813rem;
+    color: rgba(var(--dark-color), 0.62);
+    margin-bottom: 16px;
+}
+
+section.cart .section-content .data-other .other-coupon {
+    position: relative;
+    width: 100%;
+}
+
+section.cart .section-content .data-other .other-coupon input {
+    position: relative;
+    padding: 16px 18px;
+    border-radius: 9999px;
+    background-color: rgba(var(--light-color), 1);
+    border: var(--border-style) rgba(var(--dark-color), 0.12);
+    stroke: none;
+    outline: none;
+    font-size: 0.813rem;
+    color: rgba(var(--dark-color), 0.62);
+    width: -webkit-fill-available;
+}
+
+section.cart .section-content .data-other .other-coupon input::placeholder {
+    font-size: 0.813rem;
+    color: rgba(var(--dark-color), 0.62);
+}
+
+section.cart .section-content .data-other .other-coupon .button-primary {
+    position: absolute;
+    top: 50%;
+    right: 3px;
+    transform: translateY(-50%);
+    padding: 12px 20px;
+    font-size: 0.75rem;
+}
+
+.main-wrapper.cart section.course .section-header {
+    padding-top: 56px;
+    border-top: var(--border-style) rgba(var(--dark-color), 0.12);
+}
+/* END CARD PAGE */
 
 /* SECTION CTA */
 section.cta {

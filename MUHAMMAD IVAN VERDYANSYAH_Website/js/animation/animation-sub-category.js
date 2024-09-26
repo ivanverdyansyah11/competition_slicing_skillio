@@ -18,10 +18,7 @@ $(document).ready(function () {
         $('section.course.course-all .subtitle').css('opacity', '0')
         $('section.course.course-all .title').css('opacity', '0')
         $('section.course.course-all .description').css('opacity', '0')
-        $('section.course.course-all .course-filter').css('opacity', '0')
-        $('section.course.course-all .section-content .content-course').each(function (index, element) {
-            $(element).css('opacity', '0')
-        })
+        $('section.course.course-all .section-content').css('opacity', '0')
 
         setTimeout(() => {
             $('section.hero').addClass('fade-in')
@@ -45,15 +42,7 @@ $(document).ready(function () {
                                     $('section.course.course-all .description').addClass('slide-left')
 
                                     setTimeout(() => {
-                                        $('section.course.course-all .course-filter').addClass('slide-bottom')
-
-                                        setTimeout(() => {
-                                            $('section.course.course-all .section-content .content-course').each(function (index, element) {
-                                                setTimeout(() => {
-                                                    $(element).addClass('slide-bottom')
-                                                }, 150 * index)
-                                            })
-                                        }, 150)
+                                        $('section.course.course-all .section-content').addClass('slide-bottom')
                                     }, 150)
                                 }, 150)
                             }, 150)

@@ -30,6 +30,7 @@
 :root {
     --primary-color: 89, 92, 255;
     --secondary-color: 198, 248, 255;
+    --danger-color: 208, 45, 56;
     --dark-color: 18, 18, 18;
     --light-color: 255, 255, 255;
 

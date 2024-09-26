@@ -25,6 +25,10 @@
         padding: 0 80px;
     }
 
+    .progress-wrap {
+        margin: 0 80px;
+    }
+
     .card-detail-course {
         right: 80px;
         width: 300px;
@@ -90,7 +94,7 @@
         grid-template-columns: auto 320px;
     }
 
-    .profile section.profile .section-content .content-image img {
+    .profile section.profile .section-content .content-image {
         width: 180px;
     }
 }
@@ -100,6 +104,10 @@
 @media (max-width: 991.98px) {
     .container {
         padding: 0 64px;
+    }
+
+    .progress-wrap {
+        margin: 0 64px;
     }
 
     .title {
@@ -275,6 +283,11 @@
         grid-template-columns: auto auto;
     }
 
+    .course section.course .section-content.all-course .course-content .text-notfound,
+    .category section.course .section-content.all-course .course-content .text-notfound {
+        grid-column: 1 / span 2;
+    }
+
     .profile section.hero .hero-content {
         width: 100%;
     }
@@ -305,11 +318,13 @@
     }
 
     .profile section.profile .section-content,
-    .profile section.course .section-content {
+    .profile section.course .section-header,
+    .profile section.course .section-content,
+    .profile section.cart .section-content {
         width: 100%;
     }
 
-    .profile section.profile .section-content .content-image img {
+    .profile section.profile .section-content .content-image {
         width: 160px;
     }
 
@@ -325,6 +340,20 @@
     .profile section.course .section-content {
         grid-template-columns: auto auto;
     }
+
+    section.cart .section-content {
+        grid-template-columns: 100%;
+        gap: 42px;
+    }
+
+    section.cart .section-content .data-price > .button-primary:hover:before {
+        width: 800px;
+        height: 800px;
+    }
+
+    section.cart .section-content .data-price {
+        width: -webkit-fill-available;
+    }
 }
 /* END RESPONSIVE MD */
 
@@ -332,6 +361,10 @@
 @media (max-width: 767.98px) {
     .container {
         padding: 0 32px;
+    }
+
+    .progress-wrap {
+        margin: 0 32px;
     }
 
     .authentication-page .authentication-form {
@@ -470,6 +503,11 @@
         gap: 20px;
     }
 
+    .course section.course .section-content.all-course .course-content .text-notfound,
+    .category section.course .section-content.all-course .course-content .text-notfound {
+        grid-column: 1;
+    }
+
     .category section.hero .hero-content {
         width: 100%;
     }
@@ -492,6 +530,10 @@
     }
 
     .detail-course section.detail .detail-wrapper .instructor-card .card-header .header-sosmed {
+        display: none;
+    }
+
+    section.cart .section-content .data-course .course-item > img {
         display: none;
     }
 }

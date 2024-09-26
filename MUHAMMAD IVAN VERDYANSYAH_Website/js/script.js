@@ -18,8 +18,8 @@ $(document).ready(function() {
             })
             .then((categories) => {
                 categories.forEach((category) => {
-                    $('.category-list').append('<a href="category.html" class="d-flex align-items-center justify-content-between category-link">' + category.category + ' <img src="assets/icons/arrow-right-dark.svg" alt="Arrow Right Dark" width="6"></a>')
-                    $('.navbar-category .container').append('<a href="category.html">' + category.category + '</a>')
+                    $('.category-list').append('<a href="category.html" onclick="animationRedirect(\'category.html\')" class="d-flex align-items-center justify-content-between category-link">' + category.category + ' <img src="assets/icons/arrow-right-dark.svg" alt="Arrow Right Dark" width="6"></a>');
+                    $('.navbar-category .container').append('<a href="category.html" onclick="animationRedirect(\'category.html\')">' + category.category + '</a>')
                 })
             })
             .catch((error) => console.log("Unable to fetch data:", error))
@@ -45,7 +45,7 @@ $(document).ready(function() {
                             categories.forEach((category) => {
                                 if (category.category.toLowerCase() === categorySelected.toLowerCase()) {
                                     category.subCategories.forEach(subCategory => {
-                                        $('.sub-category-list').append('<a href="sub-category.html" class="d-flex align-items-center justify-content-between">' + subCategory + '</a>')
+                                        $('.sub-category-list').append('<a href="sub-category.html" onclick="animationRedirect(\'sub-category.html\')" class="d-flex align-items-center justify-content-between">' + subCategory + '</a>')
                                     })
                                 }
                             })

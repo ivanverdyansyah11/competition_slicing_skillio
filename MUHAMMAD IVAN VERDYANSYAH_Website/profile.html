@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/custom-framework.css">
     <link rel="stylesheet" href="css/page/main.css">
     <link rel="stylesheet" href="css/component/footer.css">
+    <link rel="stylesheet" href="css/component/progress-bar.css">
     <link rel="stylesheet" href="css/responsive.css">
     <!-- END STYLE CSS -->
 
@@ -47,19 +48,24 @@
     <div class="spinner"></div>
 </div>
 <main class="main-page hidden profile">
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
     <nav class="navbar d-flex flex-column">
         <div class="navbar-link d-flex justify-content-center" style="width: 100%;">
             <div class="container d-flex justify-content-between align-items-center">
                 <div class="wrapper d-flex align-items-center">
-                    <a href="index.html" class="link-brand">
+                    <a href="index.html" onclick="animationRedirect('index.html')" class="link-brand">
                         <img src="assets/brands/brand-text-secondary.svg" alt="Brand Text" width="86" class="brand-text">
                         <span class="brand-image"></span>
                     </a>
                     <div class="link-item d-flex align-items-center">
                         <button class="button-category">Categories</button>
-                        <a href="index.html">Home</a>
-                        <a href="about.html">About</a>
-                        <a href="course.html">Course</a>
+                        <a href="index.html" onclick="animationRedirect('index.html')">Home</a>
+                        <a href="about.html" onclick="animationRedirect('about.html')">About</a>
+                        <a href="course.html" onclick="animationRedirect('course.html')">Course</a>
                         <div class="popup d-flex">
                             <div class="category-list hidden d-flex flex-column">
                             </div>
@@ -69,13 +75,13 @@
                     </div>
                 </div>
                 <div class="link-profile d-flex align-items-center">
-                    <a href="wishlist.html" class="profile-wrapper d-flex align-items-center justify-content-center">
+                    <a href="wishlist.html" onclick="animationRedirect('wishlist.html')" class="profile-wrapper d-flex align-items-center justify-content-center">
                         <img src="assets/icons/like-outline-light.svg" alt="Like Icon" width="18" class="like-icon">
                     </a>
-                    <a href="cart.html" class="profile-wrapper d-flex align-items-center justify-content-center">
+                    <a href="cart.html" onclick="animationRedirect('cart.html')" class="profile-wrapper d-flex align-items-center justify-content-center">
                         <img src="assets/icons/cart-outline-light.svg" alt="Cart Icon" width="20" class="cart-icon">
                     </a>
-                    <a href="profile.html" class="profile-wrapper d-flex align-items-center justify-content-center">
+                    <a href="profile.html" onclick="animationRedirect('profile.html')" class="profile-wrapper d-flex align-items-center justify-content-center">
                         <span class="profile-name">Aditya Prayatna</span>
                         <img src="assets/profile/profile-image.svg" alt="Profile Image" class="profile-image">
                     </a>
@@ -90,10 +96,10 @@
         </div>
     </nav>
     <div class="navbar-mobile hidden d-flex flex-column align-items-center justify-content-center">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="course.html">Course</a>
-        <a href="profile.html">Profile</a>
+        <a href="index.html" onclick="animationRedirect('index.html')">Home</a>
+        <a href="about.html" onclick="animationRedirect('about.html')">About</a>
+        <a href="course.html" onclick="animationRedirect('course.html')">Course</a>
+        <a href="profile.html" onclick="animationRedirect('profile.html')">Profile</a>
     </div>
     <section class="hero hero-profile d-flex align-items-center" id="hero">
         <div class="container d-flex align-items-end justify-content-center">
@@ -102,13 +108,10 @@
                 <div class="wrapper d-flex flex-column align-items-start">
                     <h1 class="headline">My Learning</h1>
                     <div class="menu-link d-flex align-items-center">
-                        <div class="wrapper d-flex align-items-center">
-                            <a href="profile.html" class="active">Public Profile</a>
-                            <a href="my-course.html">All Course</a>
-                            <a href="cart.html">My Cart</a>
-                            <a href="wishlist.html">My Wishlist</a>
-                            <button type="button">Logout</button>
-                        </div>
+                        <a href="profile.html" onclick="animationRedirect('profile.html')" class="active">Public Profile</a>
+                        <a href="my-course.html" onclick="animationRedirect('my-course.html')">All Course</a>
+                        <a href="cart.html" onclick="animationRedirect('cart.html')">My Cart</a>
+                        <a href="wishlist.html" onclick="animationRedirect('wishlist.html')">My Wishlist</a>
                     </div>
                 </div>
             </div>
@@ -119,7 +122,13 @@
             <div class="container d-flex flex-column align-items-center">
                 <div class="section-content">
                     <div class="content-data">
-                        <h6 class="title">Personal Data</h6>
+                        <div class="wrapper d-flex align-items-center justify-content-between">
+                            <h6 class="title">Personal Data</h6>
+                            <button type="button" class="button-primary button-logout d-flex align-items-center">
+                                <span class="logout-icon"></span>
+                                <span>Logout</span>
+                            </button>
+                        </div>
                         <div class="content-image">
                             <img src="assets/profile/profile-other.svg" alt="Profile Image" style="width: 100%; border-radius: 9999px;">
                         </div>
@@ -169,7 +178,7 @@
                                 </select>
                                 <label for="status">Status</label>
                             </div>
-                            <a href="edit-profile.html" class="button-primary button-to-main" style="width: 100%; text-align: center; grid-column: 1 / span 2;">
+                            <a href="edit-profile.html" onclick="animationRedirect('edit-profile.html')" class="button-primary button-to-main" style="width: 100%; text-align: center; grid-column: 1 / span 2;">
                                 <span>Edit Profile</span>
                             </a>
                         </form>
@@ -185,10 +194,10 @@
                     <h2 class="title">Unlock Your Potential and Start Building the Career of Your Dreams</h2>
                     <p class="description">Your future starts here. Whether you’re looking to sharpen your skills or explore new opportunities, Skillio is the platform that will guide you toward success. Join our growing community of learners and professionals who are shaping the future of work through knowledge and innovation.</p>
                     <div class="button-group d-flex align-items-center">
-                        <a href="index.html" class="button-primary reverse" style="width: fit-content !important;">
+                        <a href="index.html" onclick="animationRedirect('index.html')" class="button-primary reverse" style="width: fit-content !important;">
                             <span>Get Started Now</span>
                         </a>
-                        <a href="course.html" class="button-secondary">
+                        <a href="course.html" onclick="animationRedirect('course.html')" class="button-secondary">
                             <span>Browse Courses</span>
                         </a>
                     </div>
@@ -199,7 +208,7 @@
         <div class="container">
             <footer class="footer" id="footer">
                 <div class="footer-header d-flex justify-content-between align-items-center">
-                    <a href="index.html">
+                    <a href="index.html" onclick="animationRedirect('index.html')">
                         <img src="assets/brands/brand-text-secondary.svg" alt="Brand Text" width="82">
                     </a>
                     <div class="sosmed-group d-flex align-items-center">
@@ -217,25 +226,25 @@
                 <div class="footer-list">
                     <div class="list-link d-flex flex-column">
                         <h6>Quick Link</h6>
-                        <a href="index.html">Home</a>
-                        <a href="category.html">Categories</a>
-                        <a href="about.html">About Us</a>
-                        <a href="course.html">Course</a>
+                        <a href="index.html" onclick="animationRedirect('index.html')">Home</a>
+                        <a href="category.html" onclick="animationRedirect('category.html')">Categories</a>
+                        <a href="about.html" onclick="animationRedirect('about.html')">About Us</a>
+                        <a href="course.html" onclick="animationRedirect('course.html')">Course</a>
                     </div>
                     <div class="list-link d-flex flex-column">
                         <h6>Why Choose Us</h6>
-                        <a href="index.html#whyChooseUs">Tailored Learning Paths</a>
-                        <a href="index.html#whyChooseUs">Top-Tier Instructors</a>
-                        <a href="index.html#whyChooseUs">Interactive Community</a>
-                        <a href="index.html#whyChooseUs">Comprehensive Support</a>
-                        <a href="index.html#whyChooseUs">Real-World Skills</a>
+                        <a href="index.html#whyChooseUs" onclick="animationRedirect('index.html#whyChooseUs')">Tailored Learning Paths</a>
+                        <a href="index.html#whyChooseUs" onclick="animationRedirect('index.html#whyChooseUs')">Top-Tier Instructors</a>
+                        <a href="index.html#whyChooseUs" onclick="animationRedirect('index.html#whyChooseUs')">Interactive Community</a>
+                        <a href="index.html#whyChooseUs" onclick="animationRedirect('index.html#whyChooseUs')">Comprehensive Support</a>
+                        <a href="index.html#whyChooseUs" onclick="animationRedirect('index.html#whyChooseUs')">Real-World Skills</a>
                     </div>
                     <div class="list-link d-flex flex-column">
                         <h6>Benefit With Us</h6>
-                        <a href="index.html#benefit">Flexible Learning</a>
-                        <a href="index.html#benefit">Expert Mentors</a>
-                        <a href="index.html#benefit">Real-World Projects</a>
-                        <a href="index.html#benefit">Career Growth Opportunities</a>
+                        <a href="index.html#benefit" onclick="animationRedirect('index.html#benefit')">Flexible Learning</a>
+                        <a href="index.html#benefit" onclick="animationRedirect('index.html#benefit')">Expert Mentors</a>
+                        <a href="index.html#benefit" onclick="animationRedirect('index.html#benefit')">Real-World Projects</a>
+                        <a href="index.html#benefit" onclick="animationRedirect('index.html#benefit')">Career Growth Opportunities</a>
                     </div>
                     <div class="list-link d-flex flex-column">
                         <h6>Help & Guide</h6>
@@ -262,6 +271,16 @@
 <script src="js/script.js"></script>
 <script src="js/animation/animation-navbar.js"></script>
 <script src="js/animation/animation-profile.js"></script>
+<script src="js/progress-bar.js"></script>
+<script>
+    function animationRedirect(moveTo) {
+        $('.main-page').addClass('slide-bottom')
+        setTimeout(() => {
+            changeURL(moveTo)
+        }, 250)
+        event.preventDefault()
+    }
+</script>
 <!-- SCRIPT JS -->
 </body>
 </html>
